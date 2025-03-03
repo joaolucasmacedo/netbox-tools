@@ -1,0 +1,102 @@
+!!! This is a demo junja template do generate configuration for a Cisco access switch.
+!!! It gets data from device's intefaces and local config context.
+
+!!!
+!!! Base configuration
+!!!
+hostname {{ device.name }}
+service timestamps debug datetime msec localtime show-timezone
+service timestamps log datetime msec localtime show-timezone
+service sequence-numbers
+service password-encryption
+!!!
+!!! VLAN declaration
+!!!
+{%- for vl in device.site.vlans.all() %}
+vlan {{ vl.vid }}
+ name {{ vl.name }} 
+ description {{ vl.description }}
+{%- endfor %}
+exit
+
+!!!
+!!! DNS configuration
+!!!
+ip domain-name {{ domain_name }}
+no ip domain lookup
+{%- for server in name_servers %}
+ip name-server {{ server }}
+{%- endfor %}
+!!!
+!!! SNMP configuration
+!!!
+snmp-server community {{ snmp_ro_community }} RO
+snmp-server location {{ device.location }}
+!!!
+!!! NTP configuration
+!!!{% for server in ntp_servers %}
+ntp server {{ server }}{%- endfor %}
+clock timezone BRZ -3 0
+!!
+!! Logging Configuration
+!!
+logging synchronous
+logging enable
+logging size 3000
+logging history size 3000
+logging trap informational
+logging facility local7
+logging source-interface {{ device.primary_ip.assigned_object }}
+{%- for server in syslog_servers %}
+logging host {{ server }} transport udp port 1514
+{%- endfor %}
+!!!
+!!! Interfaces configuration
+!!!
+{%- for interface in device.interfaces.all() %}
+interface {{ interface.name }}
+description {{ interface.description }}
+{%- if interface.enabled == false %}
+shutdown
+{%- elif interface.enabled == true %}
+no shutdown
+{%- endif %}
+{%- if interface.mode == "access" %}
+switchport mode access
+switchport access vlan {{ interface.untagged_vlan.vid }}
+{%- elif interface.mode == "tagged" %}
+switchport mode trunk
+switchport trunk native vlan {{ interface.untagged_vlan.vid }}
+switchport trunk allowed vlan {{ interface.untagged_vlan.vid }}
+{%- for vlan in interface.tagged_vlans.all() %}
+switchport trunk allowed vlan add {{ vlan.vid }}
+{%- endfor %}
+{%- elif interface.mode == "tagged-all" %}
+switchport mode trunk
+switchport trunk native vlan {{ interface.untagged_vlan.vid }}
+switchport trunk allowed vlan all
+{%- else %}{%- endif %}
+{%- if interface.lag != None %}
+channel-group {% for char in interface.lag.name %}{%- if char.isdigit() %}{{ char }}{%- endif %}{%- endfor %} mode on
+{%- elif interface.mode == None %}
+{%- if interface.mgmt_only == false %}
+{%- if interface.type != "virtual" %}
+switchport mode access
+authentication event fail action next-method
+authentication host-mode multi-host
+authentication order mab dot1x
+authentication priority mab dot1x
+authentication port-control auto
+mab
+dot1x pae authenticator
+{%- endif %}{%- endif %}{%- endif %}
+{%- for addr in interface.ip_addresses.all() %}
+ip address {{ addr.address.ip }} {{ addr.address.netmask }}
+{%- endfor %}
+!
+!
+{%- endfor %}
+!
+exit
+end
+!
