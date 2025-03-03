@@ -1,0 +1,12 @@
+  prefix,rir,date_added,description
+10.0.0.0/8,RFC 1918,1996-02-01,Private IPv4 space Class A
+100.64.0.0/10,RFC 6598,2012-04-26,Private address space for CGNAT
+172.16.0.0/12,RFC 1918,1996-02-01,Private IPv4 space Class B
+192.0.2.0/24,RFC 5737,2010-01-01,TEST-NET-1
+192.168.0.0/16,RFC 1918,1996-02-01,Private IPv4 space Class C
+198.51.100.0/24,RFC 5737,2010-01-01,TEST-NET-2
+203.0.113.0/24,RFC 5737,2010-01-01,TEST-NET-3
+2001:db8::/32,RFC 3849,2004-07-01,IPv6 Address Prefix Reserved for Documentation
+3fff::/20,RFC 9637,2024-07-01,IPv6 Address Prefix Reserved for Documentation
+fd00::/8,RFC 4193,2005-10-01,ULA Prefix (L bit =1) for locally assigned addresses
+fc00::/8,RFC 4193,2005-10-01,ULA Prefix (L bit =0)
