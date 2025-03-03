@@ -1,0 +1,11 @@
+name,slug,is_private,description
+AFRINIC,afrinic,,Africa RIR
+APNIC,apnic,,Asia and Pacific RIR
+ARIN,arin,,America RIR
+LACNIC,lacnic,,Larin America RIR
+RFC 1918,rfc-1918,True,Private IPv4 address space
+RFC 3849,rfc-3849,True,IPv6 Address Prefix Reserved for Documentation
+RFC 4193,rfc-4193,True,ULA - Unique Local IPv6 Unicast Addresses
+RFC 5737,rfc-5737,True,IPv4 Address Blocks Reserved for Documentation
+RFC 6598,rfc-6598,True,Private address space for CGNAT
+RIPE NCC,ripe,,Europe and Midle East RIR
