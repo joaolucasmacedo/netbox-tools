@@ -1,0 +1,18 @@
+{
+    "dns_servers": "198.51.100.20,198.51.100.21",
+    "domain_name": "acme.corp.net",
+    "name_servers": [
+        "192.0.2.20",
+        "192.0.2.21"
+    ],
+    "ntp_servers": [
+        "203.0.113.8",
+        "203.0.113.9"
+    ],
+    "snmp_ro_community": "Acme_RO",
+    "syslog_servers": [
+        "192.0.2.22",
+        "192.0.2.23"
+    ],
+    "nms_servers": "198.51.100.212"
+}
