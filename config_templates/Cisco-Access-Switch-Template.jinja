@@ -32,6 +32,9 @@ ip name-server {{ server }}
 !!!
 snmp-server community {{ snmp_ro_community }} RO
 snmp-server location {{ device.location }}
+snmp-server host {{ nms_server }} traps 
+snmp-server enable traps config 
+snmp-server enable traps bgp
 !!!
 !!! NTP configuration
 !!!{% for server in ntp_servers %}
