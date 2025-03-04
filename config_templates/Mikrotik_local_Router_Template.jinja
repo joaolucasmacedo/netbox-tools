@@ -1,0 +1,19 @@
+# Configs Gerais
+/system identity
+set name={{ device.name }}
+
+/system clock set time-zone-name={{ device.site.time_zone }}
+/system ntp client set enabled=yes
+{% for server in ntp_servers %}
+/system ntp client servers add address={{ server }}
+{%- endfor %}
+
+/ip dns set servers={{ dns_servers }}
+
+/snmp set contact="IT" enabled=yes location="{{ device.site }}" trap-target={{ nms_servers }} trap-version=2
+
+# Disable Services
+/ip service set telnet disabled=yes
+/ip service set ftp disabled=yes
+/ip service set www disabled=yes
+/ip service set api-ssl disabled=yes
