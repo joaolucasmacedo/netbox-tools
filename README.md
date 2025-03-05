@@ -22,11 +22,12 @@ See below a selection on NetBox plugins and tools with version compatibility
 |Contracts                |2.0.14|2.1.2 |2.2.11|2.3.2 |Active       |netbox-contract               |netbox_contract          |[Contract](https://github.com/mlebreuil/netbox-contract)|
 |(Hardware)Lifecycle (EOL)|1.0.2 |1.0.4 |1.1.3 |1.1.5 |Active       |netbox-lifecycle              |netbox_lifecycle         |[Lifecycle](https://github.com/DanSheps/netbox-lifecycle/releases)|
 |Software Lifecycle       |1.6.0 |1.7.0 |1.7.0 |1.8.0 |Active       |netbox-slm                    |netbox_slm               |[Software Lifecycle](https://github.com/ICTU/netbox_slm)|
-|Netbox-zabbix            |???   |2.0.0 |???   |2.0.3 |---          |---                           |---                      ||
+|Netbox-zabbix            |???   |2.0.0 |???   |2.0.3 |---          |netbox-zabbix                 |                         |[Plugin NetBox Zabbix](https://github.com/DanSheps/netbox-zabbix)|
 |Data Flows               |0.8.0 |1.0.0 |1.0.6 |1.1.0 |Active       |netbox-data-flows             |netbox_data_flows        |[Data Flows](https://github.com/Alef-Burzmali/netbox-data-flows)|
 |Validity                 |3.0.5 |3.1.1 |3.1.1 |3.1.1 |Active       |netbox-validity               |validity                 |[Validity](https://github.com/amyasnikov/validity)|
 Config Diff               |0.1.0 |2.6.x |2.7.x |2.9.0 |Active       |netbox-config-diff            |netbox_config_diff       |[Config Diff](https://github.com/miaow2/netbox-config-diff)|
 |nmap Scan                |      |      |      |0.3.2 |Active       |---                           |---                      |[NetBox nmap Scan](https://github.com/LoH-lu/netbox-nmap-scan)|
+|NetBox IPAM(scanning)    |---   |---   |---   |---   |---          |---                           |---                      |[Netbox-IPAM](https://github.com/hrleinonen/netbox-ipam)|
 |LibreNMS Plugin          |---   |---   |0.3.5 |0.3.6 |Active       |netbox-librenms-plugin        |netbox_librenms_plugin   |[LibreNMS Plugin](https://github.com/bonzo81/netbox-librenms-plugin)|
 |Config Backup            |2.0.14|???   |2.1.1 |2.1.8 |Active       |netbox-config-backup          |netbox_config_backup     |[Config Backup](https://github.com/DanSheps/netbox-config-backup)|
 |Promox (ProxBox)         |---   |---   |---   |---   |---          |netbox-proxbox                |netbox_proxbox           |[ProxBox](https://github.com/netdevopsbr/netbox-proxbox)|
