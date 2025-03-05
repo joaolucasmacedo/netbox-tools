@@ -8,11 +8,11 @@ See below a selection on NetBox plugins and tools with version compatibility
 |Topology Views           |3.9.1 |4.0.0 |4.1.0 |4.2.0 |Active       |netbox-topology-views         |netbox_topology_views    |[Topology Views](https://github.com/netbox-community/netbox-topology-views)|
 |NeXtbox UI Plugin        |0.14.0|0.15.0|1.0.3 |1.0.7 |Active       |nextbox-ui-plugin             |nextbox_ui_plugin        |[NeXtbox UI](https://github.com/iDebugAll/nextbox-ui-plugin)|
 |Netbox Plugin DNS        |0.22.9|1.0.7 |1.1.7 |1.2.4 |Active       |netbox-plugin-dns             |netbox_dns               |[Plugin DNS](https://github.com/peteeckel/netbox-plugin-dns)|
-|BGP                      |0.12.1|0.13.3|0.14.0|0.15.0|Active       |netbox-bgp                    |netbox_bgp               |[Plugin RPKI](https://github.com/menckend/netbox_rpki)|
-|RPKI                     |???   |???   |???   |???   |???          |netbox_rpki                   |netbox_rpki              |[Plugin BGP](https://github.com/netbox-community/netbox-bgp)|
+|BGP                      |0.12.1|0.13.3|0.14.0|0.15.0|Active       |netbox-bgp                    |netbox_bgp               |[Plugin BGP](https://github.com/netbox-community/netbox-bgp)|
+|RPKI                     |???   |???   |???   |???   |???          |netbox_rpki                   |netbox_rpki              |[Plugin RPKI](https://github.com/menckend/netbox_rpki)|
 |Floorplan                |0.3.6 |0.4.0 |0.5.0 |0.6.0 |Active       |netbox-floorplan-plugin       |netbox_floorplan         |[Floorplan](https://github.com/netbox-community/netbox-floorplan-plugin)|
-|Reorder Rack             |1.0.0 |1.1.1 |1.1.3 |1.1.3 |Active       |netbox-reorder-rack           |netbox_reorder_rack      |[Secrets](https://github.com/Onemind-Services-LLC/netbox-secrets)|
-|Netbox Secrets           |1.10.2|2.0.3 |2.1.2 |2.2.0 |Active       |netbox-secrets                |netbox_secrets           |[NetBox Secretstore](https://github.com/DanSheps/netbox-secretstore)|
+|Reorder Rack             |1.0.0 |1.1.1 |1.1.3 |1.1.3 |Active       |netbox-reorder-rack           |netbox_reorder_rack      |[Reorder Rack](https://github.com/netbox-community/netbox-reorder-rack))|
+|Netbox Secrets           |1.10.2|2.0.3 |2.1.2 |2.2.0 |Active       |netbox-secrets                |netbox_secrets           |[NetBox Secrets](https://github.com/Onemind-Services-LLC/netbox-secrets)|
 |ACLs                     |1.5.0 |1.6.1 |1.7.0 |1.8.1 |Active       |netbox-acls                   |netbox_acls              |[ACLs](https://github.com/ryanmerolle/netbox-acls)|
 |NAPALM                   |0.1.9 |0.2.1 |0.3.0 |0.3.1 |Active       |netbox-napalm-plugin          |netbox_napalm_plugin     |[NAPALM Plugin](https://github.com/netbox-community/netbox-napalm)|
 |Qrcode                   |0.0.13|0.0.14|0.0.15|0.0.16|Active       |netbox-qrcode                 |netbox_qrcode            |[QR code](https://github.com/netbox-community/netbox-qrcode)|
@@ -23,9 +23,10 @@ See below a selection on NetBox plugins and tools with version compatibility
 |(Hardware)Lifecycle (EOL)|1.0.2 |1.0.4 |1.1.3 |1.1.5 |Active       |netbox-lifecycle              |netbox_lifecycle         |[Lifecycle](https://github.com/DanSheps/netbox-lifecycle/releases)|
 |Software Lifecycle       |1.6.0 |1.7.0 |1.7.0 |1.8.0 |Active       |netbox-slm                    |netbox_slm               |[Software Lifecycle](https://github.com/ICTU/netbox_slm)|
 |Netbox-zabbix            |???   |2.0.0 |???   |2.0.3 |---          |netbox-zabbix                 |                         |[Plugin NetBox Zabbix](https://github.com/DanSheps/netbox-zabbix)|
+|Routing Plugin           |---   |---   |0.2.3 |0.2.3 |Active       |netbox-routing                |                         |[Routing Plugin](https://github.com/DanSheps/netbox-routing)|
 |Data Flows               |0.8.0 |1.0.0 |1.0.6 |1.1.0 |Active       |netbox-data-flows             |netbox_data_flows        |[Data Flows](https://github.com/Alef-Burzmali/netbox-data-flows)|
 |Validity                 |3.0.5 |3.1.1 |3.1.1 |3.1.1 |Active       |netbox-validity               |validity                 |[Validity](https://github.com/amyasnikov/validity)|
-Config Diff               |0.1.0 |2.6.x |2.7.x |2.9.0 |Active       |netbox-config-diff            |netbox_config_diff       |[Config Diff](https://github.com/miaow2/netbox-config-diff)|
+|Config Diff               |0.1.0 |2.6.x |2.7.x |2.9.0 |Active      |netbox-config-diff            |netbox_config_diff       |[Config Diff](https://github.com/miaow2/netbox-config-diff)|
 |nmap Scan                |      |      |      |0.3.2 |Active       |---                           |---                      |[NetBox nmap Scan](https://github.com/LoH-lu/netbox-nmap-scan)|
 |NetBox IPAM(scanning)    |---   |---   |---   |---   |---          |---                           |---                      |[Netbox-IPAM](https://github.com/hrleinonen/netbox-ipam)|
 |LibreNMS Plugin          |---   |---   |0.3.5 |0.3.6 |Active       |netbox-librenms-plugin        |netbox_librenms_plugin   |[LibreNMS Plugin](https://github.com/bonzo81/netbox-librenms-plugin)|
@@ -46,5 +47,5 @@ Config Diff               |0.1.0 |2.6.x |2.7.x |2.9.0 |Active       |netbox-conf
 |Circuit Map              |---   |---   |---   |---   |Indeterminado|netbox-plugin-circuit-map     |netbox_circuit_map       |[Circuit Map](https://github.com/pv2b/netbox-plugin-circuit-map)|
 |Device view              |---   |0.1.5 |0.1.7 |0.1.9 |Indeterminado|netbox-device-view            |netbox_device_view       |[Device View](https://github.com/peterbaumert/netbox-device-view)|
 |Netbox_DNS               |---   |---   |---   |---   |Discontinued |netbox-dns                    |netbox_dns               |[DNS(archive)](https://github.com/auroraresearchlab/netbox-dns)|
-|Secretstore              |---   |---   |---   |---   |Discontinued |netbox-secretstore            |netbox_secretstore       ||
-|Device Type Importer     |---   |---   |---   |---   |Discontinued |---                           |---                      ||
+|Secretstore              |---   |---   |---   |---   |Discontinued |netbox-secretstore            |netbox_secretstore       |[Secretstore](https://github.com/DanSheps/netbox-secretstore)|
+|Device Type Importer     |---   |---   |---   |---   |Discontinued |---                           |---                      |[Device type import](https://github.com/k01ek/netbox-devicetype-importer)|
