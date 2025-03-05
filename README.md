@@ -24,7 +24,7 @@ See below a selection on NetBox plugins and tools with version compatibility
 |Software Lifecycle       |1.6.0 |1.7.0 |1.7.0 |1.8.0 |Active       |netbox-slm                    |netbox_slm               |[Software Lifecycle](https://github.com/ICTU/netbox_slm)|
 |Netbox-zabbix            |???   |2.0.0 |???   |2.0.3 |---          |---                           |---                      ||
 |Data Flows               |0.8.0 |1.0.0 |1.0.6 |1.1.0 |Active       |netbox-data-flows             |netbox_data_flows        |[Data Flows](https://github.com/Alef-Burzmali/netbox-data-flows)|
-|Validity                 |3.0.5 |3.1.1 |3.1.1 |3.1.1 |Active       |netbox-validity               |validity                 |[Validity(https://github.com/amyasnikov/validity)|
+|Validity                 |3.0.5 |3.1.1 |3.1.1 |3.1.1 |Active       |netbox-validity               |validity                 |[Validity](https://github.com/amyasnikov/validity)|
 Config Diff               |0.1.0 |2.6.x |2.7.x |2.9.0 |Active       |netbox-config-diff            |netbox_config_diff       |[Config Diff](https://github.com/miaow2/netbox-config-diff)|
 |nmap Scan                |      |      |      |0.3.2 |Active       |---                           |---                      |[NetBox nmap Scan](https://github.com/LoH-lu/netbox-nmap-scan)|
 |LibreNMS Plugin          |---   |---   |0.3.5 |0.3.6 |Active       |netbox-librenms-plugin        |netbox_librenms_plugin   |[LibreNMS Plugin](https://github.com/bonzo81/netbox-librenms-plugin)|
@@ -32,7 +32,7 @@ Config Diff               |0.1.0 |2.6.x |2.7.x |2.9.0 |Active       |netbox-conf
 |Promox (ProxBox)         |---   |---   |---   |---   |---          |netbox-proxbox                |netbox_proxbox           |[ProxBox](https://github.com/netdevopsbr/netbox-proxbox)|
 |Windows DHCP Sync        |???   |???   |???   |???   |???          |---                           |---                      |[Win DHCP](https://github.com/scsitteam/netbox-windhcp)|
 |Storage                  |---   |0.7.0 |0.7.0 |???   |???          |netbox-storage-plugin         |netbox_storage           |[Storage](https://github.com/viroge/netbox-storage)|
-|NAS                      |1.0.3 |---   |???   |---   |???          |netbox-nas                    |netbox_nas               |(NAS)[https://github.com/wutcat/netbox-nas]|
+|NAS                      |1.0.3 |---   |???   |---   |???          |netbox-nas                    |netbox_nas               |[NAS](https://github.com/wutcat/netbox-nas)|
 |Tunnels 2                |0.2.9 |---   |---   |---   |Active       |netbox-tunnels2               |netbox_tunnels2          |[Tunnels 2](https://github.com/robertlynch3/netbox-tunnels2?tab=readme-ov-file)|
 |Circuit Mainten.         |---   |0.4.2 |???   |---   |???          |netbox-circuitmaintenance     |netbox_circuitmaintenance|[Circuit Maintenance](https://github.com/jasonyates/netbox-circuitmaintenance)|
 |Phonebox Plugin          |0.0.8 |0.0.9 |0.0.10|0.0.11|---          |phonebox-plugin               |phonebox_plugin          |[Phonebox](https://github.com/iDebugAll/phonebox_plugin)|
