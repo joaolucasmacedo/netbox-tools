@@ -5,18 +5,18 @@ See below a selection on NetBox plugins and tools with version compatibility
 
 |Plugin                   |3.7.8 |4.0.11|4.1.11|4.2.3 |Status       |Pip Package                   |configuration.py         |URL                                                             |
 |-------------------------|------|------|------|------|-------------|------------------------------|-------------------------|----------------------------------------------------------------|
-|Topology Views           |3.9.1 |4.0.0 |4.1.0 |4.2.0 |Active       |netbox-topology-views         |netbox_topology_views    |                                                      |
-|NeXtbox UI Plugin        |0.14.0|0.15.0|1.0.3 |1.0.7 |Active       |nextbox-ui-plugin             |nextbox_ui_plugin        |                                                      |
-|Netbox Plugin DNS        |0.22.9|1.0.7 |1.1.7 |1.2.1 |Active       |netbox-plugin-dns             |netbox_dns               |                                                      |
-|BGP                      |0.12.1|0.13.3|0.14.0|0.15.0|Active       |netbox-bgp                    |netbox_bgp               |                                                      |
-|Floorplan                |0.3.6 |0.4.0 |0.5.0 |0.6.0 |Active       |netbox-floorplan-plugin       |netbox_floorplan         |                                                      |
-|Reorder Rack             |1.0.0 |1.1.1 |1.1.3 |1.1.3 |Active       |netbox-reorder-rack           |netbox_reorder_rack      |                                                      |
+|Topology Views           |3.9.1 |4.0.0 |4.1.0 |4.2.0 |Active       |netbox-topology-views         |netbox_topology_views    |[]()                                                      |
+|NeXtbox UI Plugin        |0.14.0|0.15.0|1.0.3 |1.0.7 |Active       |nextbox-ui-plugin             |nextbox_ui_plugin        |[]()                                                      |
+|Netbox Plugin DNS        |0.22.9|1.0.7 |1.1.7 |1.2.1 |Active       |netbox-plugin-dns             |netbox_dns               |[]()                                                      |
+|BGP                      |0.12.1|0.13.3|0.14.0|0.15.0|Active       |netbox-bgp                    |netbox_bgp               |[]()                                                      |
+|Floorplan                |0.3.6 |0.4.0 |0.5.0 |0.6.0 |Active       |netbox-floorplan-plugin       |netbox_floorplan         |[]()                                                      |
+|Reorder Rack             |1.0.0 |1.1.1 |1.1.3 |1.1.3 |Active       |netbox-reorder-rack           |netbox_reorder_rack      |[]()                                                      |
 |Netbox Secrets           |1.10.2|2.0.3 |2.1.2 |2.2.0 |Active       |netbox-secrets                |netbox_secrets           |[NetBox Secretstore](https://github.com/DanSheps/netbox-secretstore)|
-|ACLs                     |1.5.0 |1.6.1 |1.7.0 |1.8.1 |Active       |netbox-acls                   |netbox_acls              |                                                      |
-|NAPALM                   |0.1.9 |0.2.1 |0.3.0 |0.3.1 |Active       |netbox-napalm-plugin          |netbox_napalm_plugin     |                                                      |
+|ACLs                     |1.5.0 |1.6.1 |1.7.0 |1.8.1 |Active       |netbox-acls                   |netbox_acls              |[]()                                                      |
+|NAPALM                   |0.1.9 |0.2.1 |0.3.0 |0.3.1 |Active       |netbox-napalm-plugin          |netbox_napalm_plugin     |[]()                                                      |
 |Qrcode                   |0.0.13|0.0.14|0.0.15|0.0.16|Active       |netbox-qrcode                 |netbox_qrcode            |                                                      |
-|Attachments              |4.0.2 |5.1.3 |6.0.0 |7.0.0 |Active       |netbox-attachments            |netbox_attachment        |                                                      |
-|Documents                |0.6.4 |0.7.0 |0.7.0 |0.7.1 |Active       |netbox-documents              |netbox_documents         |                                                      |
+|Attachments              |4.0.2 |5.1.3 |6.0.0 |7.0.0 |Active       |netbox-attachments            |netbox_attachment        |[NetBox Attachments](https://github.com/Kani999/netbox-attachments)|
+|Documents                |0.6.4 |0.7.0 |0.7.0 |0.7.1 |Active       |netbox-documents              |netbox_documents         |[Documents Plugin](https://github.com/jasonyates/netbox-documents)|
 |Inventory                |1.6.0 |2.0.2 |2.2.1 |2.3.0 |Active       |netbox-inventory              |netbox_inventory         |                                                      |
 |Contracts                |2.0.14|2.1.2 |2.2.11|2.3.1 |Active       |netbox-contract               |netbox_contract          |                                                      |
 |(Hardware)Lifecycle (EOL)|1.0.2 |1.0.4 |1.1.3 |1.1.5 |Active       |netbox-lifecycle              |netbox_lifecycle         |                                                      |
