@@ -40,6 +40,7 @@ Config Diff               |0.1.0 |2.6.x |2.7.x |2.9.0 |Active       |netbox-conf
 |IP calculator            |1.1   |1.4.5 |1.4.9 |---   |---          |netbox-ipcalculator           |netbox_ipcalculator      |[IP calculator](https://github.com/PieterL75/netbox_ipcalculator)|
 |MetaType Importer        |0.3.2 |0.4.1 |0.5.0 |0.6.0 |Active       |netbox-metatype-importer      |netbox_metatype_importer |[Metatype Importer](https://github.com/Onemind-Services-LLC/netbox-metatype-importer)|
 |Software Manager(Cisco)  |---   |---   |---   |---   |---          |netbox-plugin-software-manager|software_manager         |[Software manager](https://github.com/alsigna/netbox-software-manager)|
+|OS Manager(Cisco)        |---   |---   |---   |---   |---          |netbox-os-manager             |???                      |[OS manager](https://github.com/jonasnieberle/netbox-os-manager)|
 |NetBox Geo               |---   |---   |---   |---   |---          |---                           |geo                      |[NetBox Geo](https://github.com/wholesailnetworks/netbox-geo)|
 |Device Map               |---   |---   |---   |---   |Indeterminado|netbox-plugin-device-map      |netbox_device_map        |[Device Map](https://github.com/drygdryg/netbox-plugin-device-map)|
 |Circuit Map              |---   |---   |---   |---   |Indeterminado|netbox-plugin-circuit-map     |netbox_circuit_map       |[Circuit Map](https://github.com/pv2b/netbox-plugin-circuit-map)|
