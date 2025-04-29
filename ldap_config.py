@@ -1,3 +1,29 @@
+"""
+LDAP configuration for Django integration with Active Directory.
+
+This setup enables secure user authentication and group-based access control via LDAPS.
+
+Key settings:
+- LDAP Server: ldaps://ad.example.com:389
+- Service Account: CN=NETBOXSA,OU=Service Accounts,DC=example,DC=com
+- Certificates:
+    - Ignore certificate errors: False (recommended for production)
+    - CA Directory: /etc/ssl/certs
+    - CA File: /path/to/your-ca.crt
+- User search scope: limited to OU=Users
+- Attribute mapping:
+    - username ← sAMAccountName
+    - email ← mail
+    - first_name ← givenName
+    - last_name ← sn
+- Group membership required: NETBOX_ADMINSTRATOR or NETBOX_VIEW_ONLY
+- Behavior:
+    - User profile is updated on every login
+    - LDAP data is cached for 1 hour
+
+Note: Make sure the CA file is valid and trusted, and avoid disabling certificate validation in production environments.
+"""
+
 # Importação dos módulos necessários para autenticação LDAP no Django
 import ldap
 from django_auth_ldap.config import LDAPSearch, NestedGroupOfNamesType, LDAPGroupQuery
