@@ -1,4 +1,4 @@
-name,content_type,weight,enabled,group_name,button_class,new_window,link_text,link_url
+name,object_types,weight,enabled,group_name,button_class,new_window,link_text,link_url
 Check ASN - RIPE NCC,ipam.asn,100,true,Check ASN,pink,true,Check AS{{ object.asn }} (RIPE NCC),https://stat.ripe.net/AS{{ object.asn }}
 Check ASN (Registro.br),ipam.asn,100,true,Check ASN,pink,true,Check AS{{ object.asn }} (Registro.br),https://registro.br/tecnologia/ferramentas/whois/?search=AS{{ object.asn }}
 Check ASN (LACNIC),ipam.asn,100,true,Check ASN,pink,true,Check AS{{ object.asn }} (LACNIC),https://rdap-web.lacnic.net/autnum/{{ object.asn }}
