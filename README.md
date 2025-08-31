@@ -39,7 +39,7 @@ See below a selection on NetBox plugins and tools with version compatibility
 |NAS                      |1.0.3 |---   |???   |---   |---   |???          |netbox-nas                    |netbox_nas               |[NAS](https://github.com/wutcat/netbox-nas)|
 |Tunnels 2                |0.2.9 |---   |---   |---   |---   |Discontinued |netbox-tunnels2               |netbox_tunnels2          |[Tunnels 2](https://github.com/robertlynch3/netbox-tunnels2?tab=readme-ov-file)|
 |Circuit Mainten.         |---   |0.4.2 |???   |0.5.0 |---   |???          |netbox-circuitmaintenance     |netbox_circuitmaintenance|[Circuit Maintenance](https://github.com/jasonyates/netbox-circuitmaintenance)|
-|Phonebox Plugin          |0.0.8 |0.0.9 |0.0.10|0.0.11|4.3.2 |---          |phonebox-plugin               |phonebox_plugin          |[Phonebox](https://github.com/iDebugAll/phonebox_plugin)|
+|Phonebox Plugin          |0.0.8 |0.0.9 |0.0.10|---   |---   |---          |phonebox-plugin               |phonebox_plugin          |[Phonebox](https://github.com/iDebugAll/phonebox_plugin)|
 |IP calculator            |1.1   |1.4.5 |1.4.9 |1.4.9 |1.4.10|Active       |netbox-ipcalculator           |netbox_ipcalculator      |[IP calculator](https://github.com/PieterL75/netbox_ipcalculator)|
 |MetaType Importer        |0.3.2 |0.4.1 |0.5.0 |0.6.0 |0.7.0 |Active       |netbox-metatype-importer      |netbox_metatype_importer |[Metatype Importer](https://github.com/Onemind-Services-LLC/netbox-metatype-importer)|
 |Software Manager(Cisco)  |---   |---   |---   |---   |---   |---          |netbox-plugin-software-manager|software_manager         |[Software manager](https://github.com/alsigna/netbox-software-manager)|
