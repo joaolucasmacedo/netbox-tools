@@ -1,0 +1,2 @@
+Name,Object Types,Enabled,Group name,Button class,New Window,ID,Link text,Link URL,Weight
+Zabbix Graphs,"dcim.device,virtualization.virtualmachine",True,Zabbix,Red,True,19,{% if object.get_config_context().zabbix_host_id %}Zabbix Graphs{% endif %},http://zabbix.acme.corp/zabbix.php?action=charts.view&filter_hostids%5B%5D={{ object.get_config_context().zabbix_host_id }}&filter_set=1,100
