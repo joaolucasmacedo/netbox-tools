@@ -1,0 +1,4 @@
+name,object_types,enabled,group_name,button_class,new_window,link_text,link_url,weight
+Check MAC OUI,dcim.macaddress,true,,blue,true,Check {{ object }} on maclookup.app,https://maclookup.app/search/result?mac={{ object }},100
+Check MAC OUI (Device),"virtualization.virtualmachine,dcim.device",true,,blue,true,{% if object.primary_ip %}{% if object.primary_ip.assigned_object.mac_address %}Check MAC OUI {{ object.primary_ip.assigned_object.mac_address }}{% endif %}{% endif %},https://maclookup.app/search/result?mac={{ object.primary_ip.assigned_object.mac_address }},100
+Check MAC OUI (IP addr),ipam.ipaddress,true,,blue,true,{% if object.cf.associated_mac_addr %}Check {{ object.cf.associated_mac_addr }} on maclookup.app{% endif %},https://maclookup.app/search/result?mac={{ object.cf.associated_mac_addr }},100
