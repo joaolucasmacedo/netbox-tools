@@ -1,0 +1,13 @@
+name,object_types,enabled,group_name,button_class,new_window,link_text,link_url,weight
+Check ANS (RIPE NCC),ipam.asn,true,Check ASN,pink,true,Check AS{{ object.asn }} (RIPE NCC),https://stat.ripe.net/AS{{ object.asn }},100
+Check ASN (HE.net),ipam.asn,true,Check ASN,pink,true,Check AS{{ object.asn }} (HE.net),https://bgp.he.net/AS{{ object.asn }},100
+Check ASN (LACNIC),ipam.asn,true,Check ASN,pink,true,Check AS{{ object.asn }} (LACNIC),https://rdap-web.lacnic.net/autnum/{{ object.asn }},100
+Check ASN (Registro.br),ipam.asn,true,Check ASN,pink,true,Check AS{{ object.asn }} (Registro.br),https://registro.br/tecnologia/ferramentas/whois/?search=AS{{ object.asn }},100
+Check IP - RIPE NCC,ipam.ipaddress,true,Check IP Addr,pink,true,Check IP Addr {{ object.address.ip }} (RIPE NCC),https://stat.ripe.net/{{ object.address.ip }},100
+Check IP - HE.net,ipam.ipaddress,true,Check IP Addr,pink,true,Check IP Addr {{ object.address.ip }} (HE.net),https://bgp.he.net/ip/{{ object.address.ip }},100
+Check IP - LACNIC,ipam.ipaddress,true,Check IP Addr,pink,true,Check IP Addr {{ object.address.ip }} (LACNIC),https://rdap-web.lacnic.net/rdap/ip/{{ object.address.ip }},100
+Check IP - Registro.br,ipam.ipaddress,true,Check IP Addr,pink,true,Check IP Addr {{ object.address.ip }} (Registro.br),https://registro.br/tecnologia/ferramentas/whois/?search={{ object.address.ip }},100
+Check Prefix (RIPE NCC),"ipam.aggregate,ipam.prefix",true,Check Prefix,pink,true,Check Prefix {{ object }} (RIPE NCC),https://stat.ripe.net/{{ object }},100
+Check Prefix (HE.net),"ipam.aggregate,ipam.prefix",true,Check Prefix,pink,true,Check Prefix {{ object }} (HE.net),https://bgp.he.net/net/{{ object }},100
+Check Prefix (LACNIC),"ipam.aggregate,ipam.prefix",true,Check Prefix,pink,true,Check Prefix {{ object }} (LACNIC),https://rdap-web.lacnic.net/rdap/ip/{{ object }},100
+Check Prefix (Registro.br),"ipam.aggregate,ipam.prefix",true,Check Prefix,pink,true,Check Prefix {{ object }} (Registro.br),https://registro.br/tecnologia/ferramentas/whois/?search={{ object }},100
