@@ -1,0 +1,2 @@
+name,object_types,enabled,group_name,button_class,new_window,link_text,link_url,weight
+Proxmox Console,virtualization.virtualmachine,true,Proxmox,orange,true,{% if object.get_config_context().proxmox.url %}{% if object.cf.proxmox_id %}Proxmox Console{% endif %}{% endif %},{{ object.get_config_context().proxmox.url }}/#v1:0:=qemu%2F{{ object.cf.proxmox_id }}:4:::::8::,100
