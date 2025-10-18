@@ -3,7 +3,7 @@ A few Tools to improve NetBox usage
 
 See below a selection on NetBox plugins and tools with version compatibility
 
-|Plugin                   |3.7.8 |4.0.11|4.1.11|4.2.9 |4.3.2 |4.4.2  |Status       |Pip Package                   |configuration.py         |URL                                                             |
+|Plugin                   |3.7.8 |4.0.11|4.1.11|4.2.9 |4.3.7 |4.4.2  |Status       |Pip Package                   |configuration.py         |URL                                                             |
 |-------------------------|------|------|------|------|------|-------|-------------|------------------------------|-------------------------|----------------------------------------------------------------|
 |Topology Views           |3.9.1 |4.0.0 |4.1.0 |4.2.0 |4.3.0 |4.3.0  |Active       |netbox-topology-views         |netbox_topology_views    |[Topology Views](https://github.com/netbox-community/netbox-topology-views)|
 |NeXtbox UI Plugin        |0.14.0|0.15.0|1.0.3 |1.0.7 |---   |------ |Active       |nextbox-ui-plugin             |nextbox_ui_plugin        |[NeXtbox UI](https://github.com/iDebugAll/nextbox-ui-plugin)|
