@@ -15,7 +15,7 @@ See below a selection on NetBox plugins and tools with version compatibility
 |Security(NAT)            |---   |---   |---   |1.0.2 |1.2.14|1.3.0  |Active       |netbox-security               |netbox_security          |[NetBox Security](https://github.com/andy-shady-org/netbox-security)|
 |Floorplan                |0.3.6 |0.4.0 |0.5.0 |0.6.0 |0.7.0 |0.8.0  |Active       |netbox-floorplan-plugin       |netbox_floorplan         |[Floorplan](https://github.com/netbox-community/netbox-floorplan-plugin)|
 |Reorder Rack             |1.0.0 |1.1.1 |1.1.3 |1.1.3 |1.1.4 |------ |Active       |netbox-reorder-rack           |netbox_reorder_rack      |[Reorder Rack](https://github.com/netbox-community/netbox-reorder-rack))|
-|Netbox Secrets           |1.10.2|2.0.3 |2.1.2 |2.2.1 |2.3.4 |------ |Active       |netbox-secrets                |netbox_secrets           |[NetBox Secrets](https://github.com/Onemind-Services-LLC/netbox-secrets)|
+|Netbox Secrets           |1.10.2|2.0.3 |2.1.2 |2.2.1 |2.3.4 |2.4.1  |Active       |netbox-secrets                |netbox_secrets           |[NetBox Secrets](https://github.com/Onemind-Services-LLC/netbox-secrets)|
 |ACLs                     |1.5.0 |1.6.1 |1.7.0 |1.8.1 |1.9.1 |1.9.1  |Active       |netbox-acls                   |netbox_acls              |[ACLs](https://github.com/ryanmerolle/netbox-acls)|
 |NAPALM                   |0.1.9 |0.2.1 |0.3.0 |0.3.1 |0.3.2 |0.3.3  |Active       |netbox-napalm-plugin          |netbox_napalm_plugin     |[NAPALM Plugin](https://github.com/netbox-community/netbox-napalm)|
 |Toolkit(run commands)    |---   |---   |???   |???   |???   |???    |Active       |netbox-toolkit-plugin         |netbox_toolkit_plugin    |[NetBox Toolkit Plugin](https://github.com/bonzo81/netbox-toolkit-plugin)|
@@ -25,7 +25,7 @@ See below a selection on NetBox plugins and tools with version compatibility
 |Inventory                |1.6.0 |2.0.2 |2.2.1 |2.3.1 |2.4.0 |2.4.1  |Active       |netbox-inventory              |netbox_inventory         |[Inventory Plugin](https://github.com/ArnesSI/netbox-inventory)|
 |Contracts                |2.0.14|2.1.2 |2.2.11|2.3.2 |2.4.2 |------ |Active       |netbox-contract               |netbox_contract          |[Contract](https://github.com/mlebreuil/netbox-contract)|
 |(Hardware)Lifecycle (EOL)|1.0.2 |1.0.4 |1.1.3 |1.1.5 |1.1.6 |  ???  |Active       |netbox-lifecycle              |netbox_lifecycle         |[Lifecycle](https://github.com/DanSheps/netbox-lifecycle/releases)|
-|Software Lifecycle       |1.6.0 |1.7.0 |1.7.0 |1.8.0 |1.8.2 |------ |Active       |netbox-slm                    |netbox_slm               |[Software Lifecycle](https://github.com/ICTU/netbox_slm)|
+|Software Lifecycle       |1.6.0 |1.7.0 |1.7.0 |1.8.2 |----  |------ |Active       |netbox-slm                    |netbox_slm               |[Software Lifecycle](https://github.com/ICTU/netbox_slm)|
 |Inventory Monitor Plugin |---   |---   |---   |---   |---   |11.0.2 |Active       |inventory-monitor             |inventory_monitor        |[Inventory Monitor](https://github.com/CESNET/inventory-monitor-plugin)|
 |nbxSync(Zabbix integr.)  |---   |---   |1.0.0 |1.0.0 |1.0.0 |1.0.0  |Active       |nbxsync                       |nbxsync                  |[nbxSync Zabbix integration](https://github.com/OpensourceICTSolutions/nbxsync)|
 |Netbox-Zabbix-Sync       |???   |1.1   |???   |???   |3.2.0 |  ???  |---          |---                           |---                      |[Script NetBox Zabbix Sync](https://github.com/TheNetworkGuy/netbox-zabbix-sync)|
