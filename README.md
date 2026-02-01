@@ -12,25 +12,26 @@ See below a selection on NetBox plugins and tools with version compatibility
 |Netbox Plugin DNS        |1.2.14|1.3.2 |1.4.7  |1.5.0  |Active       |netbox-plugin-dns             |netbox_dns               |[Plugin DNS](https://github.com/peteeckel/netbox-plugin-dns)|
 |BGP                      |0.15.0|0.16.1|0.17.0 |0.18.0 |Active       |netbox-bgp                    |netbox_bgp               |[Plugin BGP](https://github.com/netbox-community/netbox-bgp)|
 |RPKI                     |0.1.5 |---   |------ |-----  |???          |netbox-rpki                   |netbox_rpki              |[Plugin RPKI](https://github.com/menckend/netbox_rpki)|
-|Security(NAT)            |1.0.2 |1.2.14|1.3.3  |-----  |Active       |netbox-security               |netbox_security          |[NetBox Security](https://github.com/andy-shady-org/netbox-security)|
+|Custom Objects           |---   |---   |0.4.4  |0.4.6  |Active       |netboxlabs-netbox-custom-objects|netbox_custom_objects  |[Custom objects](https://github.com/netboxlabs/netbox-custom-objects)|
+|Security(NAT)            |1.0.2 |1.2.14|1.3.3  |1.4.2  |Active       |netbox-security               |netbox_security          |[NetBox Security](https://github.com/andy-shady-org/netbox-security)|
 |Floorplan                |0.6.0 |0.7.0 |0.8.0  |0.9.0  |Active       |netbox-floorplan-plugin       |netbox_floorplan         |[Floorplan](https://github.com/netbox-community/netbox-floorplan-plugin)|
-|Reorder Rack             |1.1.3 |1.1.4 |------ |-----  |Active       |netbox-reorder-rack           |netbox_reorder_rack      |[Reorder Rack](https://github.com/netbox-community/netbox-reorder-rack))|
+|Reorder Rack             |1.1.3 |1.1.4 |------ |-----  |Active       |netbox-reorder-rack           |netbox_reorder_rack      |[Reorder Rack](https://github.com/netbox-community/netbox-reorder-rack)|
 |Netbox Secrets           |2.2.1 |2.3.4 |2.4.2  |-----  |Active       |netbox-secrets                |netbox_secrets           |[NetBox Secrets](https://github.com/Onemind-Services-LLC/netbox-secrets)|
 |ACLs                     |1.8.1 |1.9.1 |1.9.1  |-----  |Active       |netbox-acls                   |netbox_acls              |[ACLs](https://github.com/ryanmerolle/netbox-acls)|
 |NAPALM                   |0.3.1 |0.3.2 |0.3.3  |0.3.4  |Active       |netbox-napalm-plugin          |netbox_napalm_plugin     |[NAPALM Plugin](https://github.com/netbox-community/netbox-napalm)|
 |Toolkit(run commands)    |???   |???   |???    |-----  |Active       |netbox-toolkit-plugin         |netbox_toolkit_plugin    |[NetBox Toolkit Plugin](https://github.com/bonzo81/netbox-toolkit-plugin)|
-|Service Path (Maps)      |4.0.? |5.0.x |5.4.0  |-----  |Active       |cesnet_service_path_plugin    |cesnet_service_path_plugin|[cesnet_service_path_plugin](https://github.com/CESNET/cesnet_service_path_plugin)|
+|Service Path (Maps)      |4.0.? |5.0.x |5.4.0  |6.0.0  |Active       |cesnet_service_path_plugin    |cesnet_service_path_plugin|[cesnet_service_path_plugin](https://github.com/CESNET/cesnet_service_path_plugin)|
 |Attachments              |7.2.0 |8.0.4 |9.0.1  |10.0.1 |Active       |netbox-attachments            |netbox_attachment        |[NetBox Attachments](https://github.com/Kani999/netbox-attachments)|
 |Documents                |0.7.2 |0.7.4 |0.7.4  |-----  |Active       |netbox-documents              |netbox_documents         |[Documents Plugin](https://github.com/jasonyates/netbox-documents)|
 |Inventory                |2.3.1 |2.4.0 |2.4.1  |2.5.0  |Active       |netbox-inventory              |netbox_inventory         |[Inventory Plugin](https://github.com/ArnesSI/netbox-inventory)|
 |Contracts                |2.3.2 |2.4.2 |2.4.3  |-----  |Active       |netbox-contract               |netbox_contract          |[Contract](https://github.com/mlebreuil/netbox-contract)|
 |(Hardware)Lifecycle (EOL)|1.1.5 |1.1.6 |1.1.6  |1.1.7  |Active       |netbox-lifecycle              |netbox_lifecycle         |[Lifecycle](https://github.com/DanSheps/netbox-lifecycle/releases)|
 |Software Lifecycle       |1.8.2 |1.8.3 |------ |-----  |Active       |netbox-slm                    |netbox_slm               |[Software Lifecycle](https://github.com/ICTU/netbox_slm)|
-|Inventory Monitor Plugin |---   |---   |12.0.1 |-----  |Active       |inventory-monitor             |inventory_monitor        |[Inventory Monitor](https://github.com/CESNET/inventory-monitor-plugin)|
-|nbxSync(Zabbix integr.)  |1.0.0 |1.0.0 |1.0.1  |-----  |Active       |nbxsync                       |nbxsync                  |[nbxSync Zabbix integration](https://github.com/OpensourceICTSolutions/nbxsync)|
+|Inventory Monitor Plugin |---   |---   |12.0.1 |13.0.0 |Active       |inventory-monitor             |inventory_monitor        |[Inventory Monitor](https://github.com/CESNET/inventory-monitor-plugin)|
+|nbxSync(Zabbix integr.)  |1.0.0 |1.0.0 |1.0.1  |1.0.2  |Active       |nbxsync                       |nbxsync                  |[nbxSync Zabbix integration](https://github.com/OpensourceICTSolutions/nbxsync)|
 |Netbox-Zabbix-Sync       |???   |3.2.0 |3.3.0 ?|-----  |---          |---                           |---                      |[Script NetBox Zabbix Sync](https://github.com/TheNetworkGuy/netbox-zabbix-sync)|
 |Netbox-zabbix            |2.0.3 |---   |------ |-----  |---          |netbox-zabbix                 |                         |[Plugin NetBox Zabbix](https://github.com/DanSheps/netbox-zabbix)|
-|Routing Plugin           |0.3.0 |0.3.1 |------ |0.3.2  |Active       |netbox-routing                |                         |[Routing Plugin](https://github.com/DanSheps/netbox-routing)|
+|Routing Plugin           |0.3.0 |0.3.1 |0.3.1  |0.4.0  |Active       |netbox-routing                |                         |[Routing Plugin](https://github.com/DanSheps/netbox-routing)|
 |Data Flows               |1.3.0 |1.4.1 |1.4.1  |1.5.0  |Active       |netbox-data-flows             |netbox_data_flows        |[Data Flows](https://github.com/Alef-Burzmali/netbox-data-flows)|
 |Config Backup            |2.1.8 |2.1.9 |2.1.9  |2.2.2  |Active       |netbox-config-backup          |netbox_config_backup     |[Config Backup](https://github.com/DanSheps/netbox-config-backup)|
 |Validity                 |3.3.1 |3.3.1 |3.3.1  |3.4.0  |Active       |netbox-validity               |validity                 |[Validity](https://github.com/amyasnikov/validity)|
