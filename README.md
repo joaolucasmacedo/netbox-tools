@@ -13,6 +13,8 @@ See below a selection on NetBox plugins and tools with version compatibility
 |BGP                      |0.15.0|0.16.1|0.17.0 |0.18.0 |Active       |netbox-bgp                    |netbox_bgp               |[Plugin BGP](https://github.com/netbox-community/netbox-bgp)|
 |RPKI                     |0.1.5 |---   |------ |-----  |???          |netbox-rpki                   |netbox_rpki              |[Plugin RPKI](https://github.com/menckend/netbox_rpki)|
 |Custom Objects           |---   |---   |0.4.4  |0.4.6  |Active       |netboxlabs-netbox-custom-objects|netbox_custom_objects  |[Custom objects](https://github.com/netboxlabs/netbox-custom-objects)|
+|Diode NetBox Plugin      |1.2.0 |1.2.0 |1.7.0  |1.7.0  |Active       |netboxlabs-diode-netbox-plugin|netbox_diode_plugin      |[Diode Plugin](https://github.com/netboxlabs/diode-netbox-plugin)|
+|Netbox Branching         |0.5.7 |0.6.2 |0.7.4  |0.8.0  |Active       |netboxlabs-netbox-branching   |netbox_branching         |[Branching Plugin](https://github.com/netboxlabs/netbox-branching)|
 |Security(NAT)            |1.0.2 |1.2.14|1.3.3  |1.4.2  |Active       |netbox-security               |netbox_security          |[NetBox Security](https://github.com/andy-shady-org/netbox-security)|
 |Floorplan                |0.6.0 |0.7.0 |0.8.0  |0.9.0  |Active       |netbox-floorplan-plugin       |netbox_floorplan         |[Floorplan](https://github.com/netbox-community/netbox-floorplan-plugin)|
 |Reorder Rack             |1.1.3 |1.1.4 |------ |-----  |Active       |netbox-reorder-rack           |netbox_reorder_rack      |[Reorder Rack](https://github.com/netbox-community/netbox-reorder-rack)|
@@ -40,6 +42,7 @@ See below a selection on NetBox plugins and tools with version compatibility
 |NetBox IPAM(scanning)    |---   |---   |------ |-----  |---          |---                           |---                      |[Netbox-IPAM](https://github.com/hrleinonen/netbox-ipam)|
 |LibreNMS Plugin          |0.3.12|0.3.18|0.4.2  |-----  |Active       |netbox-librenms-plugin        |netbox_librenms_plugin   |[LibreNMS Plugin](https://github.com/bonzo81/netbox-librenms-plugin)|
 |Promox (ProxBox)         |0.0.6 |---   |------ |-----  |---          |netbox-proxbox                |netbox_proxbox           |[ProxBox](https://github.com/netdevopsbr/netbox-proxbox)|
+|NetBox DHCP              |---   |---   |---    |0.1.3  |Active       |netbox-plugin-dhcp            |netbox_dhcp              |[Netbox DHCP](https://github.com/sys4/netbox-plugin-dhcp)|
 |Windows DHCP Sync        |???   |???   |------ |-----  |???          |---                           |---                      |[Win DHCP](https://github.com/scsitteam/netbox-windhcp)|
 |Storage                  |---   |---   |------ |-----  |???          |netbox-storage-plugin         |netbox_storage           |[Storage](https://github.com/viroge/netbox-storage)|
 |NAS                      |---   |---   |------ |-----  |???          |netbox-nas                    |netbox_nas               |[NAS](https://github.com/wutcat/netbox-nas)|
