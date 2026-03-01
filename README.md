@@ -18,7 +18,7 @@ See below a selection on NetBox plugins and tools with version compatibility
 |Security(NAT)            |1.0.2 |1.2.14|1.3.3  |1.4.2  |Active       |netbox-security               |netbox_security          |[NetBox Security](https://github.com/andy-shady-org/netbox-security)|
 |Floorplan                |0.6.0 |0.7.0 |0.8.0  |0.9.0  |Active       |netbox-floorplan-plugin       |netbox_floorplan         |[Floorplan](https://github.com/netbox-community/netbox-floorplan-plugin)|
 |Reorder Rack             |1.1.3 |1.1.4 |------ |-----  |Active       |netbox-reorder-rack           |netbox_reorder_rack      |[Reorder Rack](https://github.com/netbox-community/netbox-reorder-rack)|
-|Netbox Secrets           |2.2.1 |2.3.4 |2.4.2  |-----  |Active       |netbox-secrets                |netbox_secrets           |[NetBox Secrets](https://github.com/Onemind-Services-LLC/netbox-secrets)|
+|Netbox Secrets           |2.2.1 |2.3.4 |2.4.2  |3.0.0  |Active       |netbox-secrets                |netbox_secrets           |[NetBox Secrets](https://github.com/Onemind-Services-LLC/netbox-secrets)|
 |ACLs                     |1.8.1 |1.9.1 |1.9.1  |-----  |Active       |netbox-acls                   |netbox_acls              |[ACLs](https://github.com/ryanmerolle/netbox-acls)|
 |NAPALM                   |0.3.1 |0.3.2 |0.3.3  |0.3.4  |Active       |netbox-napalm-plugin          |netbox_napalm_plugin     |[NAPALM Plugin](https://github.com/netbox-community/netbox-napalm)|
 |Toolkit(run commands)    |???   |???   |???    |-----  |Active       |netbox-toolkit-plugin         |netbox_toolkit_plugin    |[NetBox Toolkit Plugin](https://github.com/bonzo81/netbox-toolkit-plugin)|
