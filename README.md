@@ -23,8 +23,8 @@ See below a selection on NetBox plugins and tools with version compatibility
 |NAPALM                   |0.3.1 |0.3.2 |0.3.3  |0.3.4  |Active       |netbox-napalm-plugin          |netbox_napalm_plugin     |[NAPALM Plugin](https://github.com/netbox-community/netbox-napalm)|
 |Toolkit(run commands)    |???   |???   |???    |-----  |Active       |netbox-toolkit-plugin         |netbox_toolkit_plugin    |[NetBox Toolkit Plugin](https://github.com/bonzo81/netbox-toolkit-plugin)|
 |Service Path (Maps)      |4.0.? |5.0.x |5.4.0  |6.0.0  |Active       |cesnet_service_path_plugin    |cesnet_service_path_plugin|[cesnet_service_path_plugin](https://github.com/CESNET/cesnet_service_path_plugin)|
-|Attachments              |7.2.0 |8.0.4 |9.0.1  |10.0.1 |Active       |netbox-attachments            |netbox_attachment        |[NetBox Attachments](https://github.com/Kani999/netbox-attachments)|
-|Documents                |0.7.2 |0.7.4 |0.7.4  |-----  |Active       |netbox-documents              |netbox_documents         |[Documents Plugin](https://github.com/jasonyates/netbox-documents)|
+|Attachments              |7.2.0 |8.0.4 |9.0.1  |11.0.1 |Active       |netbox-attachments            |netbox_attachment        |[NetBox Attachments](https://github.com/Kani999/netbox-attachments)|
+|Documents                |0.7.2 |0.7.4 |0.7.4  |0.8.2  |Active       |netbox-documents              |netbox_documents         |[Documents Plugin](https://github.com/jasonyates/netbox-documents)|
 |Inventory                |2.3.1 |2.4.0 |2.4.1  |2.5.0  |Active       |netbox-inventory              |netbox_inventory         |[Inventory Plugin](https://github.com/ArnesSI/netbox-inventory)|
 |Contracts                |2.3.2 |2.4.2 |2.4.3  |-----  |Active       |netbox-contract               |netbox_contract          |[Contract](https://github.com/mlebreuil/netbox-contract)|
 |(Hardware)Lifecycle (EOL)|1.1.5 |1.1.6 |1.1.6  |1.1.7  |Active       |netbox-lifecycle              |netbox_lifecycle         |[Lifecycle](https://github.com/DanSheps/netbox-lifecycle/releases)|
@@ -42,7 +42,7 @@ See below a selection on NetBox plugins and tools with version compatibility
 |NetBox IPAM(scanning)    |---   |---   |------ |-----  |---          |---                           |---                      |[Netbox-IPAM](https://github.com/hrleinonen/netbox-ipam)|
 |LibreNMS Plugin          |0.3.12|0.3.18|0.4.2  |-----  |Active       |netbox-librenms-plugin        |netbox_librenms_plugin   |[LibreNMS Plugin](https://github.com/bonzo81/netbox-librenms-plugin)|
 |Promox (ProxBox)         |0.0.6 |---   |------ |-----  |---          |netbox-proxbox                |netbox_proxbox           |[ProxBox](https://github.com/netdevopsbr/netbox-proxbox)|
-|NetBox DHCP              |---   |---   |---    |0.1.3  |Active       |netbox-plugin-dhcp            |netbox_dhcp              |[Netbox DHCP](https://github.com/sys4/netbox-plugin-dhcp)|
+|NetBox DHCP              |---   |---   |---    |0.1.4  |Active       |netbox-plugin-dhcp            |netbox_dhcp              |[Netbox DHCP](https://github.com/sys4/netbox-plugin-dhcp)|
 |Windows DHCP Sync        |???   |???   |------ |-----  |???          |---                           |---                      |[Win DHCP](https://github.com/scsitteam/netbox-windhcp)|
 |Storage                  |---   |---   |------ |-----  |???          |netbox-storage-plugin         |netbox_storage           |[Storage](https://github.com/viroge/netbox-storage)|
 |NAS                      |---   |---   |------ |-----  |???          |netbox-nas                    |netbox_nas               |[NAS](https://github.com/wutcat/netbox-nas)|
