@@ -7,14 +7,14 @@ See below a selection on NetBox plugins and tools with version compatibility
 |-------------------------|------|------|-------|-----  |-------------|------------------------------|-------------------------|----------------------------------------------------------------|
 |Topology Views           |4.2.0 |4.3.0 |4.4.0  |4.5.0  |Active       |netbox-topology-views         |netbox_topology_views    |[Topology Views](https://github.com/netbox-community/netbox-topology-views)|
 |NeXtbox UI Plugin        |1.0.7 |---   |------ |-----  |Active       |nextbox-ui-plugin             |nextbox_ui_plugin        |[NeXtbox UI](https://github.com/iDebugAll/nextbox-ui-plugin)|
-|NetBox Ninja Plugin      |0.1.12|0.1.12|0.1.13 |-----  |Active       |netbox-ninja-plugin           |netbox_ninja_plugin      |[Ninja plugin](https://github.com/rautanen-io/netbox-ninja-plugin)|
+|NetBox Ninja Plugin      |0.1.12|0.1.12|0.1.13 |0.2.0  |Active       |netbox-ninja-plugin           |netbox_ninja_plugin      |[Ninja plugin](https://github.com/rautanen-io/netbox-ninja-plugin)|
 |Qrcode                   |0.0.17|0.0.18|0.0.19 |0.0.20 |Active       |netbox-qrcode                 |netbox_qrcode            |[QR code](https://github.com/netbox-community/netbox-qrcode)|
 |Netbox Plugin DNS        |1.2.14|1.3.2 |1.4.7  |1.5.5  |Active       |netbox-plugin-dns             |netbox_dns               |[Plugin DNS](https://github.com/peteeckel/netbox-plugin-dns)|
 |BGP                      |0.15.0|0.16.1|0.17.0 |0.18.1 |Active       |netbox-bgp                    |netbox_bgp               |[Plugin BGP](https://github.com/netbox-community/netbox-bgp)|
 |RPKI                     |0.1.5 |---   |------ |-----  |???          |netbox-rpki                   |netbox_rpki              |[Plugin RPKI](https://github.com/menckend/netbox_rpki)|
-|Custom Objects           |---   |---   |0.4.4  |0.4.6  |Active       |netboxlabs-netbox-custom-objects|netbox_custom_objects  |[Custom objects](https://github.com/netboxlabs/netbox-custom-objects)|
-|Diode NetBox Plugin      |1.2.0 |1.2.0 |1.7.0  |1.9.0  |Active       |netboxlabs-diode-netbox-plugin|netbox_diode_plugin      |[Diode Plugin](https://github.com/netboxlabs/diode-netbox-plugin)|
-|Netbox Branching         |0.5.7 |0.6.2 |0.7.4  |0.8.3  |Active       |netboxlabs-netbox-branching   |netbox_branching         |[Branching Plugin](https://github.com/netboxlabs/netbox-branching)|
+|Custom Objects           |---   |---   |0.4.4  |0.4.10 |Active       |netboxlabs-netbox-custom-objects|netbox_custom_objects  |[Custom objects](https://github.com/netboxlabs/netbox-custom-objects)|
+|Diode NetBox Plugin      |1.2.0 |1.2.0 |1.7.1  |1.10.0 |Active       |netboxlabs-diode-netbox-plugin|netbox_diode_plugin      |[Diode Plugin](https://github.com/netboxlabs/diode-netbox-plugin)|
+|Netbox Branching         |0.5.7 |0.6.2 |0.7.4  |0.9.0  |Active       |netboxlabs-netbox-branching   |netbox_branching         |[Branching Plugin](https://github.com/netboxlabs/netbox-branching)|
 |Security(NAT)            |1.0.2 |1.2.14|1.3.3  |1.4.4  |Active       |netbox-security               |netbox_security          |[NetBox Security](https://github.com/andy-shady-org/netbox-security)|
 |Floorplan                |0.6.0 |0.7.0 |0.8.0  |0.9.0  |Active       |netbox-floorplan-plugin       |netbox_floorplan         |[Floorplan](https://github.com/netbox-community/netbox-floorplan-plugin)|
 |Reorder Rack             |1.1.3 |1.1.4 |------ |-----  |Active       |netbox-reorder-rack           |netbox_reorder_rack      |[Reorder Rack](https://github.com/netbox-community/netbox-reorder-rack)|
@@ -29,9 +29,9 @@ See below a selection on NetBox plugins and tools with version compatibility
 |Contracts                |2.3.2 |2.4.2 |2.4.3  |2.4.5  |Active       |netbox-contract               |netbox_contract          |[Contract](https://github.com/mlebreuil/netbox-contract)|
 |(Hardware)Lifecycle (EOL)|1.1.5 |1.1.6 |1.1.6  |1.1.8  |Active       |netbox-lifecycle              |netbox_lifecycle         |[Lifecycle](https://github.com/DanSheps/netbox-lifecycle/releases)|
 |Software Lifecycle       |1.8.2 |1.8.3 |------ |-----  |Active       |netbox-slm                    |netbox_slm               |[Software Lifecycle](https://github.com/ICTU/netbox_slm)|
-|Inventory Monitor Plugin |---   |---   |12.0.1 |13.0.0 |Active       |inventory-monitor             |inventory_monitor        |[Inventory Monitor](https://github.com/CESNET/inventory-monitor-plugin)|
-|ProxBox (Proxmox Sync)   |0.0.6 |---   |---    |0.0.9  |Active       |netbox-proxbox                |netbox_proxbox           |[proxbox](https://github.com/emersonfelipesp/netbox-proxbox)|
-|nbxSync(Zabbix integr.)  |1.0.0 |1.0.0 |1.0.1  |1.0.3  |Active       |nbxsync                       |nbxsync                  |[nbxSync Zabbix integration](https://github.com/OpensourceICTSolutions/nbxsync)|
+|Inventory Monitor Plugin |---   |---   |12.0.1 |13.3.0 |Active       |inventory-monitor             |inventory_monitor        |[Inventory Monitor](https://github.com/CESNET/inventory-monitor-plugin)|
+|ProxBox (Proxmox Sync)   |0.0.6 |---   |---    |0.0.11 |Active       |netbox-proxbox                |netbox_proxbox           |[proxbox](https://github.com/emersonfelipesp/netbox-proxbox)|
+|nbxSync(Zabbix integr.)  |1.0.3 |1.0.0 |1.0.1  |1.0.3  |Active       |nbxsync                       |nbxsync                  |[nbxSync Zabbix integration](https://github.com/OpensourceICTSolutions/nbxsync)|
 |Netbox-Zabbix-Sync       |???   |3.2.0 |3.3.0 ?|-----  |---          |---                           |---                      |[Script NetBox Zabbix Sync](https://github.com/TheNetworkGuy/netbox-zabbix-sync)|
 |Netbox-zabbix            |2.0.3 |---   |------ |-----  |---          |netbox-zabbix                 |                         |[Plugin NetBox Zabbix](https://github.com/DanSheps/netbox-zabbix)|
 |Routing Plugin           |0.3.0 |0.3.1 |0.3.1  |0.4.1  |Active       |netbox-routing                |                         |[Routing Plugin](https://github.com/DanSheps/netbox-routing)|
