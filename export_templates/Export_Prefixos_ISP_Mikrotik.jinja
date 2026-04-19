@@ -1,0 +1,11 @@
+{%- for agg in queryset | sort(attribute="prefix") if agg.tags.filter(slug="prefixos-isp-moc").exists() %}
+
+{%- if agg.prefix.version == 4 %}
+/ip firewall address-list add list=Prefixos_ISP_Moc address={{ agg.prefix }} comment="{{ agg.description | default('NetBox') | replace('"', '') }}"
+
+{%- elif agg.prefix.version == 6 %}
+/ipv6 firewall address-list add list=Prefixos_ISP_Moc address={{ agg.prefix }} comment="{{ agg.description | default('NetBox') | replace('"', '') }}"
+
+{%- endif %}
+
+{%- endfor %}
