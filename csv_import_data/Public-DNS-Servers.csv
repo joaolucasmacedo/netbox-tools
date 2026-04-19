@@ -1,0 +1,163 @@
+address,role,status,dns_name,description,comments
+94.140.14.14/32,anycast,active,dns.adguard-dns.com,AdGuard DNS,
+94.140.15.15/32,anycast,active,dns.adguard-dns.com,AdGuard DNS,
+2a10:50c0::ad1:ff/128,anycast,active,dns.adguard-dns.com,AdGuard DNS,
+2a10:50c0::ad2:ff/128,anycast,active,dns.adguard-dns.com,AdGuard DNS,
+94.140.14.15/32,anycast,active,family.adguard-dns.com,AdGuard DNS(Family),
+94.140.15.16/32,anycast,active,family.adguard-dns.com,AdGuard DNS(Family),
+2a10:50c0::bad1:ff/128,anycast,active,family.adguard-dns.com,AdGuard DNS(Family),
+2a10:50c0::bad2:ff/128,anycast,active,family.adguard-dns.com,AdGuard DNS(Family),
+94.140.14.140/32,anycast,active,unfiltered.adguard-dns.com,AdGuard DNS(Unfiltered),
+94.140.15.141/32,anycast,active,unfiltered.adguard-dns.com,AdGuard DNS(Unfiltered),
+2a10:50c0::1:ff/128,anycast,active,unfiltered.adguard-dns.com,AdGuard DNS(Unfiltered),
+2a10:50c0::2:ff/128,anycast,active,unfiltered.adguard-dns.com,AdGuard DNS(Unfiltered),
+45.163.79.58/32,anycast,active,,AgnerDNS,
+45.163.79.59/32,anycast,active,,AgnerDNS,
+2804:52f0:810:2::58/128,anycast,active,,AgnerDNS,
+2804:52f0:810:2::59/128,anycast,active,,AgnerDNS,
+45.163.79.60/32,anycast,active,,AgnerDNS(Adult),
+45.163.79.61/32,anycast,active,,AgnerDNS(Adult),
+2804:52f0:810:2::60/128,anycast,active,,AgnerDNS(Adult),
+2804:52f0:810:2::61/128,anycast,active,,AgnerDNS(Adult),
+208.67.222.222/32,anycast,active,dns.opendns.com,Cisco OpenDNS,
+208.67.220.220/32,anycast,active,dns.opendns.com,Cisco OpenDNS,
+2620:119:35::35/128,anycast,active,dns.opendns.com,Cisco OpenDNS,
+2620:119:53::53/128,anycast,active,dns.opendns.com,Cisco OpenDNS,
+146.112.41.2/32,anycast,active,doh.opendns.com,Cisco OpenDNS(DoH),
+2620:119:fc::2/128,anycast,active,doh.opendns.com,Cisco OpenDNS(DoH),
+208.67.222.123/32,anycast,active,familyshield.opendns.com,Cisco OpenDNS Family,
+208.67.220.123/32,anycast,active,familyshield.opendns.com,Cisco OpenDNS Family,
+2620:119:35::123/128,anycast,active,familyshield.opendns.com,Cisco OpenDNS Family,
+2620:119:53::123/128,anycast,active,familyshield.opendns.com,Cisco OpenDNS Family,
+146.112.41.3/32,anycast,active,doh.familyshield.opendns.com,Cisco OpenDNS Family(DoH),
+2620:119:fc::3/128,anycast,active,doh.familyshield.opendns.com,Cisco OpenDNS Family(DoH),
+208.67.222.220/32,anycast,active,resolver3.opendns.com,Cisco OpenDNS(resolver 3),
+208.67.220.222/32,anycast,active,resolver4.opendns.com,Cisco OpenDNS(resolver 4),
+208.67.220.2/32,anycast,active,sandbox.opendns.com,Cisco OpenDNS Sandbox,
+208.67.222.2/32,anycast,active,sandbox.opendns.com,Cisco OpenDNS Sandbox,
+2620:0:ccd::2/128,anycast,active,sandbox.opendns.com,Cisco OpenDNS Sandbox,
+2620:0:ccc::2/128,anycast,active,sandbox.opendns.com,Cisco OpenDNS Sandbox,
+146.112.41.4/32,anycast,active,doh.sandbox.opendns.com,Cisco OpenDNS Sandbox(DoH),
+2620:119:fc::4/128,anycast,active,doh.sandbox.opendns.com,Cisco OpenDNS Sandbox(DoH),
+146.112.41.5/32,anycast,active,doh.umbrella.com,Cisco Umbrella(DoH),
+2620:119:fc::5/128,anycast,active,doh.umbrella.com,Cisco Umbrella(DoH),
+1.1.1.1/32,anycast,active,one.one.one.one,Cloudflare DNS,
+1.0.0.1/32,anycast,active,one.one.one.one,Cloudflare DNS,
+2606:4700:4700::1111/128,anycast,active,1dot1dot1dot1.cloudflare-dns.com,Cloudflare DNS,
+2606:4700:4700::1001/128,anycast,active,1dot1dot1dot1.cloudflare-dns.com,Cloudflare DNS,
+1.1.1.2/32,anycast,active,security.cloudflare-dns.com,Cloudflare DNS - Malware,
+1.0.0.2/32,anycast,active,security.cloudflare-dns.com,Cloudflare DNS - Malware,
+2606:4700:4700::1112/128,anycast,active,security.cloudflare-dns.com,Cloudflare DNS - Malware,
+2606:4700:4700::1002/128,anycast,active,security.cloudflare-dns.com,Cloudflare DNS - Malware,
+1.1.1.3/32,anycast,active,family.cloudflare-dns.com,Cloudflare DNS - Malware and adult,
+1.0.0.3/32,anycast,active,family.cloudflare-dns.com,Cloudflare DNS - Malware and adult,
+2606:4700:4700::1003/128,anycast,active,family.cloudflare-dns.com,Cloudflare DNS - Malware and adult,
+2606:4700:4700::1113/128,anycast,active,family.cloudflare-dns.com,Cloudflare DNS - Malware and adult,
+76.76.2.22/32,anycast,active,dns.controld.com,Control D,
+76.76.10.22/32,anycast,active,free.dns.controld.com,Control D,
+2606:1a40::22/128,anycast,active,dns.controld.com,Control D,
+2606:1a40:1::22/128,anycast,active,free.dns.controld.com,Control D,
+76.76.2.38/32,anycast,active,,Control D(1Hosts - Lite),"Blocks ads, trackers, and malware, prioritizing functionality."
+76.76.10.38/32,anycast,active,,Control D(1Hosts - Lite),"Blocks ads, trackers, and malware, prioritizing functionality."
+2606:1a40::38/128,anycast,active,,Control D(1Hosts - Lite),"Blocks ads, trackers, and malware, prioritizing functionality."
+2606:1a40:1::38/128,anycast,active,,Control D(1Hosts - Lite),"Blocks ads, trackers, and malware, prioritizing functionality."
+76.76.2.48/32,anycast,active,,Control D(1Hosts - Xtra),"Blocks ads, trackers, and malware, prioritizing privacy."
+76.76.10.48/32,anycast,active,,Control D(1Hosts - Xtra),"Blocks ads, trackers, and malware, prioritizing privacy."
+2606:1a40::48/128,anycast,active,,Control D(1Hosts - Xtra),"Blocks ads, trackers, and malware, prioritizing privacy."
+2606:1a40:1::48/128,anycast,active,,Control D(1Hosts - Xtra),"Blocks ads, trackers, and malware, prioritizing privacy."
+76.76.2.44/32,anycast,active,,Control D(AdGuard Filter),AdGuard Simplified Domain names filter.
+76.76.10.44/32,anycast,active,,Control D(AdGuard Filter),AdGuard Simplified Domain names filter.
+2606:1a40::44/128,anycast,active,,Control D(AdGuard Filter),AdGuard Simplified Domain names filter.
+2606:1a40:1::44/128,anycast,active,,Control D(AdGuard Filter),AdGuard Simplified Domain names filter.
+76.76.2.2/32,anycast,active,p2.freedns.controld.com,Control D(Ads & Track),
+76.76.10.2/32,anycast,active,s2.freedns.controld.com,Control D(Ads & Track),
+2606:1a40::2/128,anycast,active,p2.freedns.controld.com,Control D(Ads & Track),
+2606:1a40:1::2/128,anycast,active,s2.freedns.controld.com,Control D(Ads & Track),
+76.76.2.11/32,anycast,active,freedns.controld.com,Control D(DoH),
+76.76.10.11/32,anycast,active,dns.freedns.controld.com,Control D(DoH),
+2606:1a40::11/128,anycast,active,freedns.controld.com,Control D(DoH),
+2606:1a40:1::11/128,anycast,active,dns.freedns.controld.com,Control D(DoH),
+76.76.2.4/32,anycast,active,p4.freedns.controld.com,Control D(Family),
+76.76.10.4/32,anycast,active,s4.freedns.controld.com,Control D(Family),
+2606:1a40::4/128,anycast,active,p4.freedns.controld.com,Control D(Family),
+2606:1a40:1::4/128,anycast,active,s4.freedns.controld.com,Control D(Family),
+76.76.2.43/32,anycast,active,,Control D(GoodbyeAds),"Small blocklist blocking 99% of ads on mobile, PC, and Smart TV."
+76.76.10.43/32,anycast,active,,Control D(GoodbyeAds),"Small blocklist blocking 99% of ads on mobile, PC, and Smart TV."
+2606:1a40::43/128,anycast,active,,Control D(GoodbyeAds),"Small blocklist blocking 99% of ads on mobile, PC, and Smart TV."
+2606:1a40:1::43/128,anycast,active,,Control D(GoodbyeAds),"Small blocklist blocking 99% of ads on mobile, PC, and Smart TV."
+76.76.2.37/32,anycast,active,,Control D(Hagezi's DNS - Light),"Light protection for a cleaner internet, prioritizing functionality."
+76.76.10.37/32,anycast,active,,Control D(Hagezi's DNS - Light),"Light protection for a cleaner internet, prioritizing functionality."
+2606:1a40::37/128,anycast,active,,Control D(Hagezi's DNS - Light),"Light protection for a cleaner internet, prioritizing functionality."
+2606:1a40:1::37/128,anycast,active,,Control D(Hagezi's DNS - Light),"Light protection for a cleaner internet, prioritizing functionality."
+76.76.2.40/32,anycast,active,,Control D(Hagezi's DNS - Normal),All-round protection for a cleaner internet.
+76.76.10.40/32,anycast,active,,Control D(Hagezi's DNS - Normal),All-round protection for a cleaner internet.
+2606:1a40::40/128,anycast,active,,Control D(Hagezi's DNS - Normal),All-round protection for a cleaner internet.
+2606:1a40:1::40/128,anycast,active,,Control D(Hagezi's DNS - Normal),All-round protection for a cleaner internet.
+76.76.2.41/32,anycast,active,,Control D(Hagezi's DNS - Pro),Extended protection for a cleaner internet.
+76.76.10.41/32,anycast,active,,Control D(Hagezi's DNS - Pro),Extended protection for a cleaner internet.
+2606:1a40::41/128,anycast,active,,Control D(Hagezi's DNS - Pro),Extended protection for a cleaner internet.
+2606:1a40:1::41/128,anycast,active,,Control D(Hagezi's DNS - Pro),Extended protection for a cleaner internet.
+76.76.2.42/32,anycast,active,,Control D(Hagezi's DNS - Pro Plus),Maximum protection with more aggressive blocking.
+76.76.10.42/32,anycast,active,,Control D(Hagezi's DNS - Pro Plus),Maximum protection with more aggressive blocking.
+2606:1a40::42/128,anycast,active,,Control D(Hagezi's DNS - Pro Plus),Maximum protection with more aggressive blocking.
+2606:1a40:1::42/128,anycast,active,,Control D(Hagezi's DNS - Pro Plus),Maximum protection with more aggressive blocking.
+76.76.2.46/32,anycast,active,,Control D(Hagezi's DNS - TIF),"Blocks malware, cryptojacking, scams, spam, phishing, and command-and-control servers."
+76.76.10.46/32,anycast,active,,Control D(Hagezi's DNS - TIF),"Blocks malware, cryptojacking, scams, spam, phishing, and command-and-control servers."
+2606:1a40::46/128,anycast,active,,Control D(Hagezi's DNS - TIF),"Blocks malware, cryptojacking, scams, spam, phishing, and command-and-control servers."
+2606:1a40:1::46/128,anycast,active,,Control D(Hagezi's DNS - TIF),"Blocks malware, cryptojacking, scams, spam, phishing, and command-and-control servers."
+76.76.2.45/32,anycast,active,,Control D(Hagezi's DNS - Ultimate),Strictest protection. May contain false positives that limit functionality.
+76.76.10.45/32,anycast,active,,Control D(Hagezi's DNS - Ultimate),Strictest protection. May contain false positives that limit functionality.
+2606:1a40::45/128,anycast,active,,Control D(Hagezi's DNS - Ultimate),Strictest protection. May contain false positives that limit functionality.
+2606:1a40:1::45/128,anycast,active,,Control D(Hagezi's DNS - Ultimate),Strictest protection. May contain false positives that limit functionality.
+76.76.2.47/32,anycast,active,,Control D(hBlock),"Blocks ads, tracking, and malware domains."
+76.76.10.47/32,anycast,active,,Control D(hBlock),"Blocks ads, tracking, and malware domains."
+2606:1a40::47/128,anycast,active,,Control D(hBlock),"Blocks ads, tracking, and malware domains."
+2606:1a40:1::47/128,anycast,active,,Control D(hBlock),"Blocks ads, tracking, and malware domains."
+76.76.2.1/32,anycast,active,p1.freedns.controld.com,Control D(Malware),
+76.76.10.1/32,anycast,active,s1.freedns.controld.com,Control D(Malware),
+2606:1a40::1/128,anycast,active,p1.freedns.controld.com,Control D(Malware),
+2606:1a40:1::1/128,anycast,active,s1.freedns.controld.com,Control D(Malware),
+76.76.2.33/32,anycast,active,,Control D(OISD - Basic),Smaller variant focusing on ads and mobile app ads.
+76.76.10.33/32,anycast,active,,Control D(OISD - Basic),Smaller variant focusing on ads and mobile app ads.
+2606:1a40::33/128,anycast,active,,Control D(OISD - Basic),Smaller variant focusing on ads and mobile app ads.
+2606:1a40:1::33/128,anycast,active,,Control D(OISD - Basic),Smaller variant focusing on ads and mobile app ads.
+76.76.2.32/32,anycast,active,,Control D(OISD - Full),"Blocks ads, malware, phishing, tracking. Prioritizes functionality over blocking."
+76.76.10.32/32,anycast,active,,Control D(OISD - Full),"Blocks ads, malware, phishing, tracking. Prioritizes functionality over blocking."
+2606:1a40::32/128,anycast,active,,Control D(OISD - Full),"Blocks ads, malware, phishing, tracking. Prioritizes functionality over blocking."
+2606:1a40:1::32/128,anycast,active,,Control D(OISD - Full),"Blocks ads, malware, phishing, tracking. Prioritizes functionality over blocking."
+76.76.2.3/32,anycast,active,p3.freedns.controld.com,Control D(Social),
+76.76.10.3/32,anycast,active,s3.freedns.controld.com,Control D(Social),
+2606:1a40::3/128,anycast,active,p3.freedns.controld.com,Control D(Social),
+2606:1a40:1::3/128,anycast,active,s3.freedns.controld.com,Control D(Social),
+76.76.2.35/32,anycast,active,,Control D(StevenBlack Unified),Unified hosts from curated sources. Blocks adware and malware.
+76.76.10.35/32,anycast,active,,Control D(StevenBlack Unified),Unified hosts from curated sources. Blocks adware and malware.
+2606:1a40::35/128,anycast,active,,Control D(StevenBlack Unified),Unified hosts from curated sources. Blocks adware and malware.
+2606:1a40:1::35/128,anycast,active,,Control D(StevenBlack Unified),Unified hosts from curated sources. Blocks adware and malware.
+76.76.2.5/32,anycast,active,p5.freedns.controld.com,Control D(Uncensored),
+76.76.10.5/32,anycast,active,s5.freedns.controld.com,Control D(Uncensored),
+2606:1a40::5/128,anycast,active,p5.freedns.controld.com,Control D(Uncensored),
+2606:1a40:1::5/128,anycast,active,s5.freedns.controld.com,Control D(Uncensored),
+76.76.2.0/32,anycast,active,p0.freedns.controld.com,Control D(Unfiltered),
+76.76.10.0/32,anycast,active,s0.freedns.controld.com,Control D(Unfiltered),
+2606:1a40::/128,anycast,active,p0.freedns.controld.com,Control D(Unfiltered),
+2606:1a40:1::/128,anycast,active,s0.freedns.controld.com,Control D(Unfiltered),
+8.8.8.8/32,anycast,active,dns.google.com,Google DNS,
+8.8.4.4/32,anycast,active,dns.google.com,Google DNS,
+2001:4860:4860::8888/128,anycast,active,dns.google.com,Google DNS,
+2001:4860:4860::8844/128,anycast,active,dns.google.com,Google DNS,
+2001:4860:4860::64/128,anycast,active,dns.google.com,Google DNS64,
+2001:4860:4860::6464/128,anycast,active,dns.google.com,Google DNS64,
+9.9.9.11/32,anycast,active,dns11.quad9.net,Quad9 Secures w/ECS,
+149.112.112.11/32,anycast,active,dns11.quad9.net,Quad9 Secures w/ECS,
+2620:fe::11/128,anycast,active,dns11.quad9.net,Quad9 Secures w/ECS,
+2620:fe::fe:11/128,anycast,active,dns11.quad9.net,Quad9 Secures w/ECS,
+9.9.9.9/32,anycast,active,dns.quad9.net,Quad9 Standard DNS,
+149.112.112.112/32,anycast,active,dns.quad9.net,Quad9 Standard DNS,
+2620:fe::9/128,anycast,active,dns.quad9.net,Quad9 Standard DNS,
+2620:fe::fe/128,anycast,active,dns.quad9.net,Quad9 Standard DNS,
+149.112.112.9/32,anycast,active,dns9.quad9.net,Quad9 Standard DNS,
+2620:fe::fe:9/128,anycast,active,dns9.quad9.net,Quad9 Standard DNS,
+9.9.9.10/32,anycast,active,dns10.quad9.net,Quad9 Unsecured,
+149.112.112.10/32,anycast,active,dns10.quad9.net,Quad9 Unsecured,
+2620:fe::10/128,anycast,active,dns10.quad9.net,Quad9 Unsecured,
+2620:fe::fe:10/128,anycast,active,dns10.quad9.net,Quad9 Unsecured,
