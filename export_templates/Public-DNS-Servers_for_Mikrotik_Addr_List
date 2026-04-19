@@ -1,0 +1,11 @@
+{%- for addr in queryset | sort(attribute="address") if addr.tags.filter(slug="public-dns-servers").exists() %}
+
+{%- if addr.family == 4 %}
+/ip firewall address-list add list=Public-DNS-Servers address={{ addr.address.ip }} comment="{{ addr.description | default('NetBox') | replace('"', '') }}"
+
+{%- elif addr.family == 6 %}
+/ipv6 firewall address-list add list=Public-DNS-Servers address={{ addr.address.ip }} comment="{{ addr.description | default('NetBox') | replace('"', '') }}"
+
+{%- endif %}
+
+{%- endfor %}
