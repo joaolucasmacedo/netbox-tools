@@ -30,6 +30,8 @@ See below a selection on NetBox plugins and tools with version compatibility
 |(Hardware)Lifecycle (EOL)|1.1.5 |1.1.6 |1.1.6  |1.1.8  |Active       |netbox-lifecycle              |netbox_lifecycle         |[Lifecycle](https://github.com/DanSheps/netbox-lifecycle/releases)|
 |Software Lifecycle       |1.8.2 |1.8.3 |------ |-----  |Active       |netbox-slm                    |netbox_slm               |[Software Lifecycle](https://github.com/ICTU/netbox_slm)|
 |Inventory Monitor Plugin |---   |---   |12.0.1 |13.3.0 |Active       |inventory-monitor             |inventory_monitor        |[Inventory Monitor](https://github.com/CESNET/inventory-monitor-plugin)|
+|Maintenance Device       |---   |---   |1.2.1  |1.2.3  |Active       |netbox-maintenance-device     |netbox_maintenance_device|[Maintenance Device Plugin](https://github.com/diegogodoy06/netbox-maintenance-device)|
+|SSL Plugin               |---   |---   |0.8.1  |1.0.1  |Active       |netbox-ssl                    |netbox_ssl               |[SSL Plugin](https://github.com/ctrl-alt-automate/netbox-ssl)|
 |ProxBox (Proxmox Sync)   |0.0.6 |---   |---    |0.0.11 |Active       |netbox-proxbox                |netbox_proxbox           |[proxbox](https://github.com/emersonfelipesp/netbox-proxbox)|
 |nbxSync(Zabbix integr.)  |1.0.3 |1.0.0 |1.0.1  |1.0.3  |Active       |nbxsync                       |nbxsync                  |[nbxSync Zabbix integration](https://github.com/OpensourceICTSolutions/nbxsync)|
 |Netbox-Zabbix-Sync       |???   |3.2.0 |3.3.0 ?|-----  |---          |---                           |---                      |[Script NetBox Zabbix Sync](https://github.com/TheNetworkGuy/netbox-zabbix-sync)|
