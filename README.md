@@ -7,7 +7,7 @@ See below a selection on NetBox plugins and tools with version compatibility
 |-------------------------|------|-------|-----  |----- |-------------|------------------------------|-------------------------|----------------------------------------------------------------|
 |Topology Views           |4.3.0 |4.4.0  |4.5.0  |----- |Active       |netbox-topology-views         |netbox_topology_views    |[Topology Views](https://github.com/netbox-community/netbox-topology-views)|
 |NeXtbox UI Plugin        |---   |------ |-----  |----- |Active       |nextbox-ui-plugin             |nextbox_ui_plugin        |[NeXtbox UI](https://github.com/iDebugAll/nextbox-ui-plugin)|
-|NetBox Ninja Plugin      |0.1.12|0.1.13 |0.2.0  |0.3.1 |Active       |netbox-ninja-plugin           |netbox_ninja_plugin      |[Ninja plugin](https://github.com/rautanen-io/netbox-ninja-plugin)|
+|NetBox Ninja Plugin      |0.1.12|0.1.13 |0.2.0  |0.3.2 |Active       |netbox-ninja-plugin           |netbox_ninja_plugin      |[Ninja plugin](https://github.com/rautanen-io/netbox-ninja-plugin)|
 |Qrcode                   |0.0.18|0.0.19 |0.0.20 |0.0.21|Active       |netbox-qrcode                 |netbox_qrcode            |[QR code](https://github.com/netbox-community/netbox-qrcode)|
 |Netbox Plugin DNS        |1.3.2 |1.4.7  |1.5.5  |----- |Active       |netbox-plugin-dns             |netbox_dns               |[Plugin DNS](https://github.com/peteeckel/netbox-plugin-dns)|
 |BGP                      |0.16.1|0.17.0 |0.18.1 |0.19.0|Active       |netbox-bgp                    |netbox_bgp               |[Plugin BGP](https://github.com/netbox-community/netbox-bgp)|
@@ -20,9 +20,9 @@ See below a selection on NetBox plugins and tools with version compatibility
 |Reorder Rack             |1.1.4 |1.1.4  |1.1.4  |----- |Active       |netbox-reorder-rack           |netbox_reorder_rack      |[Reorder Rack](https://github.com/netbox-community/netbox-reorder-rack)|
 |Netbox Secrets           |2.3.4 |2.4.2  |3.0.1  |3.1.0 |Active       |netbox-secrets                |netbox_secrets           |[NetBox Secrets](https://github.com/Onemind-Services-LLC/netbox-secrets)|
 |ACLs                     |1.9.1 |1.9.1  |2.0.0  |2.0.1 |Active       |netbox-acls                   |netbox_acls              |[ACLs](https://github.com/ryanmerolle/netbox-acls)|
-|NAPALM                   |0.3.2 |0.3.3  |0.3.4  |----- |Active       |netbox-napalm-plugin          |netbox_napalm_plugin     |[NAPALM Plugin](https://github.com/netbox-community/netbox-napalm)|
+|NAPALM                   |0.3.2 |0.3.3  |0.3.4  |0.3.5 |Active       |netbox-napalm-plugin          |netbox_napalm_plugin     |[NAPALM Plugin](https://github.com/netbox-community/netbox-napalm)|
 |Toolkit(run commands)    |???   |???    |-----  |----- |Active       |netbox-toolkit-plugin         |netbox_toolkit_plugin    |[NetBox Toolkit Plugin](https://github.com/bonzo81/netbox-toolkit-plugin)|
-|Netbox Pathways          |----- |-----  |0.2.1  |----- |Active       |netbox-pathways               |netbox_pathways          |[Netbox Pathways](https://github.com/jsenecal/netbox-pathways)|
+|Netbox Pathways          |----- |-----  |0.2.1  |0.2.2 |Active       |netbox-pathways               |netbox_pathways          |[Netbox Pathways](https://github.com/jsenecal/netbox-pathways)|
 |Fiber Management System  |----- |-----  |0.1.0  |----- |Active       |netbox-fms                    |netbox_fms               |[NetBox FMS](https://github.com/jsenecal/netbox-fms)|
 |Netbox WDM               |----- |-----  |0.2.2  |----- |Active       |netbox-wdm                    |netbox_wdm               |[NetBox WDM](https://github.com/jsenecal/netbox-wdm)|
 |Service Path (Maps)      |5.0.x |5.4.0  |6.1.1  |6.2.5 |Active       |cesnet_service_path_plugin    |cesnet_service_path_plugin|[cesnet_service_path_plugin](https://github.com/CESNET/cesnet_service_path_plugin)|
@@ -31,7 +31,7 @@ See below a selection on NetBox plugins and tools with version compatibility
 |Inventory                |2.4.0 |2.4.1  |2.5.0  |2.6.0 |Active       |netbox-inventory              |netbox_inventory         |[Inventory Plugin](https://github.com/ArnesSI/netbox-inventory)|
 |Contracts                |2.4.2 |2.4.3  |2.4.5  |----- |Active       |netbox-contract               |netbox_contract          |[Contract](https://github.com/mlebreuil/netbox-contract)|
 |(Hardware)Lifecycle (EOL)|1.1.6 |1.1.6  |1.1.8  |1.1.9 |Active       |netbox-lifecycle              |netbox_lifecycle         |[Lifecycle](https://github.com/DanSheps/netbox-lifecycle/)|
-|Software Lifecycle       |1.8.3 |------ |-----  |----- |Active       |netbox-slm                    |netbox_slm               |[Software Lifecycle](https://github.com/ICTU/netbox_slm)|
+|Software Lifecycle       |1.8.3 |------ |-----  |1.9.0 |Active       |netbox-slm                    |netbox_slm               |[Software Lifecycle](https://github.com/ICTU/netbox_slm)|
 |Inventory Monitor Plugin |---   |12.0.1 |13.3.0 |13.4.0|Active       |inventory-monitor             |inventory_monitor        |[Inventory Monitor](https://github.com/CESNET/inventory-monitor-plugin)|
 |Maintenance Device       |---   |1.2.1  |1.2.3  |1.4.1 |Active       |netbox-maintenance-device     |netbox_maintenance_device|[Maintenance Device Plugin](https://github.com/diegogodoy06/netbox-maintenance-device)|
 |SSL Plugin               |---   |0.8.1  |1.0.1  |1.2.0 |Active       |netbox-ssl                    |netbox_ssl               |[SSL Plugin](https://github.com/ctrl-alt-automate/netbox-ssl)|
@@ -43,7 +43,7 @@ See below a selection on NetBox plugins and tools with version compatibility
 |Data Flows               |1.4.1 |1.4.1  |1.5.0  |1.5.2 |Active       |netbox-data-flows             |netbox_data_flows        |[Data Flows](https://github.com/Alef-Burzmali/netbox-data-flows)|
 |Config Backup            |2.1.9 |2.1.9  |2.2.2  |----- |Active       |netbox-config-backup          |netbox_config_backup     |[Config Backup](https://github.com/DanSheps/netbox-config-backup)|
 |Validity                 |3.3.1 |3.3.1  |3.4.3  |3.5.0 |Active       |netbox-validity               |validity                 |[Validity](https://github.com/amyasnikov/validity)|
-|Config Diff              |2.10.0|2.12.0 |2.14.2 |----- |Active       |netbox-config-diff            |netbox_config_diff       |[Config Diff](https://github.com/miaow2/netbox-config-diff)|
+|Config Diff              |2.10.0|2.12.0 |2.14.2 |2.15.0|Active       |netbox-config-diff            |netbox_config_diff       |[Config Diff](https://github.com/miaow2/netbox-config-diff)|
 |nmap Scan                |0.3.5 |------ |-----  |----- |Active       |---                           |---                      |[NetBox nmap Scan](https://github.com/LoH-lu/netbox-nmap-scan)|
 |NetBox IPAM(scanning)    |---   |------ |-----  |----- |---          |---                           |---                      |[Netbox-IPAM](https://github.com/hrleinonen/netbox-ipam)|
 |LibreNMS Plugin          |0.3.18|0.4.2  |0.4.3  |----- |Active       |netbox-librenms-plugin        |netbox_librenms_plugin   |[LibreNMS Plugin](https://github.com/bonzo81/netbox-librenms-plugin)|
