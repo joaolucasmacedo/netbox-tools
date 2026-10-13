@@ -6,9 +6,12 @@ See below a selection on NetBox plugins and tools with version compatibility
 |Plugin                   |4.5.10 |4.6.10|4.7.3 |Status       |Pip Package                   |configuration.py         |URL                                                             |
 |-------------------------|-----  |----- |------|-------------|------------------------------|-------------------------|----------------------------------------------------------------|
 |Topology Views           |4.5.1  |4.5.1 |4.7.0 |Active       |netbox-topology-views         |netbox_topology_views    |[Topology Views](https://github.com/netbox-community/netbox-topology-views)|
+|Device view              |0.2.0  |0.3.0 |0.4.0 |Active       |netbox-device-view            |netbox_device_view       |[Device View](https://github.com/peterbaumert/netbox-device-view)|
 |NetBox Ninja Plugin      |0.2.0  |0.3.2 |0.4.1 |Active       |netbox-ninja-plugin           |netbox_ninja_plugin      |[Ninja plugin](https://github.com/rautanen-io/netbox-ninja-plugin)|
 |Qrcode                   |0.0.20 |0.0.21|1.0.0 |Active       |netbox-qrcode                 |netbox_qrcode            |[QR code](https://github.com/netbox-community/netbox-qrcode)|
 |Netbox Plugin DNS        |1.5.10 |1.6.2 |1.7.3 |Active       |netbox-plugin-dns             |netbox_dns               |[Plugin DNS](https://github.com/peteeckel/netbox-plugin-dns)|
+|NetBox DHCP              |0.1.8  |0.1.11|0.2.0 |Active       |netbox-plugin-dhcp            |netbox_dhcp              |[Netbox DHCP](https://github.com/sys4/netbox-plugin-dhcp)|
+|Windows DHCP Sync        |0.11.0 | ???  |0.12.1|Active       |---                           |---                      |[Win DHCP](https://github.com/scsitteam/netbox-windhcp)|
 |BGP                      |0.18.1 |0.19.0|0.20.2|Active       |netbox-bgp                    |netbox_bgp               |[Plugin BGP](https://github.com/netbox-community/netbox-bgp)|
 |RPKI                     |0.2.5  |----- |----- |???          |netbox-rpki                   |netbox_rpki              |[Plugin RPKI](https://github.com/menckend/netbox_rpki)|
 |Routing Plugin           |0.4.3  |0.5.0 |0.5.0 |Active       |netbox-routing                |                         |[Routing Plugin](https://github.com/DanSheps/netbox-routing)|
@@ -19,6 +22,7 @@ See below a selection on NetBox plugins and tools with version compatibility
 |Security(NAT)            |1.4.4  |1.5.11|1.6.8 |Active       |netbox-security               |netbox_security          |[NetBox Security](https://github.com/andy-shady-org/netbox-security)|
 |Floorplan                |0.9.1  |0.9.2 |0.10.0|Active       |netbox-floorplan-plugin       |netbox_floorplan         |[Floorplan](https://github.com/netbox-community/netbox-floorplan-plugin)|
 |Reorder Rack             |1.1.4  | ???  |1.1.5 |Active       |netbox-reorder-rack           |netbox_reorder_rack      |[Reorder Rack](https://github.com/netbox-community/netbox-reorder-rack)|
+|Rack Design              |1.2.1  |1.2.1 |1.2.1 |Active       |netbox-rack-design            |netbox_rack_design       |[Rack Design](https://github.com/ravenrs/netbox-rack-design)|
 |Netbox Secrets           |3.0.1  |3.1.1 |----- |Active       |netbox-secrets                |netbox_secrets           |[NetBox Secrets](https://github.com/Onemind-Services-LLC/netbox-secrets)|
 |ACLs                     |2.0.3  |2.0.3 |2.1.0 |Active       |netbox-acls                   |netbox_acls              |[ACLs](https://github.com/ryanmerolle/netbox-acls)|
 |NAPALM                   |0.3.4  |0.3.5 |0.3.7 |Active       |netbox-napalm-plugin          |netbox_napalm_plugin     |[NAPALM Plugin](https://github.com/netbox-community/netbox-napalm)|
@@ -43,12 +47,9 @@ See below a selection on NetBox plugins and tools with version compatibility
 |nbxSync(Zabbix integr.)  |1.0.5  |1.0.5 |----- |Active       |nbxsync                       |nbxsync                  |[nbxSync Zabbix integration](https://github.com/OpensourceICTSolutions/nbxsync)|
 |Data Flows               |1.5.2  |1.5.2 |1.5.4 |Active       |netbox-data-flows             |netbox_data_flows        |[Data Flows](https://github.com/Alef-Burzmali/netbox-data-flows)|
 |LibreNMS Plugin          |0.4.3  |0.4.7 |0.4.7 |Active       |netbox-librenms-plugin        |netbox_librenms_plugin   |[LibreNMS Plugin](https://github.com/bonzo81/netbox-librenms-plugin)|
-|NetBox DHCP              |0.1.8  |0.1.11|0.2.0 |Active       |netbox-plugin-dhcp            |netbox_dhcp              |[Netbox DHCP](https://github.com/sys4/netbox-plugin-dhcp)|
-|Windows DHCP Sync        |0.11.0 | ???  |0.12.1|Active       |---                           |---                      |[Win DHCP](https://github.com/scsitteam/netbox-windhcp)|
 |Circuit Mainten.         |0.8.0  |----- |----- |Active       |netbox-circuitmaintenance     |netbox_circuitmaintenance|[Circuit Maintenance](https://github.com/jasonyates/netbox-circuitmaintenance)|
 |IP calculator            |1.4.11 |----- |----- |Active       |netbox-ipcalculator           |netbox_ipcalculator      |[IP calculator](https://github.com/PieterL75/netbox_ipcalculator)|
 |MetaType Importer        |0.9.0  |0.10.0|----- |Active       |netbox-metatype-importer      |netbox_metatype_importer |[Metatype Importer](https://github.com/Onemind-Services-LLC/netbox-metatype-importer)|
-|Device view              |0.2.0  |0.3.0 |0.4.0 |Active       |netbox-device-view            |netbox_device_view       |[Device View](https://github.com/peterbaumert/netbox-device-view)|
 |Software Manager(Cisco)  |-----  |----- |----- |---          |netbox-plugin-software-manager|software_manager         |[Software manager](https://github.com/alsigna/netbox-software-manager)|
 |OS Manager(Cisco)        |-----  |----- |----- |---          |netbox-os-manager             |???                      |[OS manager](https://github.com/jonasnieberle/netbox-os-manager)|
 |NetBox Geo               |-----  |----- |----- |---          |---                           |geo                      |[NetBox Geo](https://github.com/wholesailnetworks/netbox-geo)|
