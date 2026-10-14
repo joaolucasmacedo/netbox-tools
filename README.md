@@ -25,9 +25,13 @@ See below a selection on NetBox plugins and tools with version compatibility
 |Security(NAT)            |1.4.4  |1.5.11|1.6.8 |Active       |netbox-security               |netbox_security          |[NetBox Security](https://github.com/andy-shady-org/netbox-security)|
 |Panorama config Pump     |1.1.3  |1.2.1 |1.3.0 |Active       |netbox-panorama-configpump-plugin|netbox_panorama_configpump_plugin|[Panorama Config Pump](https://github.com/rautanen-io/netbox-panorama-configpump-plugin)|
 |Floorplan                |0.9.1  |0.9.2 |0.10.0|Active       |netbox-floorplan-plugin       |netbox_floorplan         |[Floorplan](https://github.com/netbox-community/netbox-floorplan-plugin)|
+|Plan Drawing Plugin      |----   |----  |1.1.2 |Active       |netbox-plugin-plan-drawing    |netbox_plugin_plan_drawing|[Plan Drawing Plugin](https://github.com/stblassitude/netbox-plugin-plan-drawing)|
 |Reorder Rack             |1.1.4  | ???  |1.1.5 |Active       |netbox-reorder-rack           |netbox_reorder_rack      |[Reorder Rack](https://github.com/netbox-community/netbox-reorder-rack)|
 |Rack Design              |1.2.1  |1.2.1 |1.2.1 |Active       |netbox-rack-design            |netbox_rack_design       |[Rack Design](https://github.com/ravenrs/netbox-rack-design)|
+|Netbox Cabinet View      |0.7.3  |0.7.3 | ???  |Active       |netbox-cabinet-view           |netbox_cabinet_view      |[Cabinet View](https://github.com/TheFlyingCorpse/netbox-cabinet-view)|
+|Netbox Render            |----   |0.2.1 | ???? |Active       |netbox-render                 |netbox_render            |[Netbox Render](https://github.com/paragm/netbox-render)|
 |Netbox Secrets           |3.0.1  |3.1.1 |----- |Active       |netbox-secrets                |netbox_secrets           |[NetBox Secrets](https://github.com/Onemind-Services-LLC/netbox-secrets)|
+|Netbox Passwork Plugin   |1.6.0  |1.6.0 |1.7.2 |Active       |netbox-passwork               |netbox_passwork          |[Passwork Plugin](https://github.com/krasotinpa/netbox-passwork-plugin)|
 |ACLs                     |2.0.3  |2.0.3 |2.1.0 |Active       |netbox-acls                   |netbox_acls              |[ACLs](https://github.com/ryanmerolle/netbox-acls)|
 |NAPALM                   |0.3.4  |0.3.5 |0.3.7 |Active       |netbox-napalm-plugin          |netbox_napalm_plugin     |[NAPALM Plugin](https://github.com/netbox-community/netbox-napalm)|
 |Config Backup            |2.2.2  |----- |----- |Active       |netbox-config-backup          |netbox_config_backup     |[Config Backup](https://github.com/DanSheps/netbox-config-backup)|
@@ -44,28 +48,45 @@ See below a selection on NetBox plugins and tools with version compatibility
 |Contracts                |2.4.5  |2.5.0 |----- |Active       |netbox-contract               |netbox_contract          |[Contract](https://github.com/mlebreuil/netbox-contract)|
 |(Hardware)Lifecycle (EOL)|1.1.8  |1.1.9 |1.1.10|Active       |netbox-lifecycle              |netbox_lifecycle         |[Lifecycle](https://github.com/DanSheps/netbox-lifecycle/)|
 |Software Lifecycle       |-----  |1.9.0 |----- |Active       |netbox-slm                    |netbox_slm               |[Software Lifecycle](https://github.com/ICTU/netbox_slm)|
+|MAC Addresses Plugin     |0.1.0  |0.1.0 |0.1.0 |Active       |netbox-macadress              |netbox_macadress         |[MAC Addresses](https://github.com/sapisos/netbox-macadress)|
 |Inventory Monitor Plugin |13.5.0 |14.0.0|15.2.0|Active       |inventory-monitor             |inventory_monitor        |[Inventory Monitor](https://github.com/CESNET/inventory-monitor-plugin)|
 |Maintenance Device       |1.2.3  |1.4.1 |1.4.4 |Active       |netbox-maintenance-device     |netbox_maintenance_device|[Maintenance Device Plugin](https://github.com/diegogodoy06/netbox-maintenance-device)|
 |SSL Plugin               |1.0.1  |1.4.0 |1.4.0 |Active       |netbox-ssl                    |netbox_ssl               |[SSL Plugin](https://github.com/ctrl-alt-automate/netbox-ssl)|
 |ProxBox (Proxmox Sync)   |0.0.11 |0.0.29|0.0.29|Active       |netbox-proxbox                |netbox_proxbox           |[proxbox](https://github.com/emersonfelipesp/netbox-proxbox)|
+|ProxBox-stable           |-----  |----- |----- |Active       |netbox-proxbox                |netbox_proxbox           |[proxbox-stable](https://github.com/ugenk/netbox-proxbox-stable)|
+|ProxSync                 |-----  | ???  | ???  |Active       |proxsync                      |pve_sync_plugin          |[ProxSync](https://github.com/XiuJie2/proxsync)|
 |nbxSync(Zabbix integr.)  |1.0.5  |1.0.5 |----- |Active       |nbxsync                       |nbxsync                  |[nbxSync Zabbix integration](https://github.com/OpensourceICTSolutions/nbxsync)|
+|Unifi Sync               | ???   | ???  | ???  |Active       |netbox-unifi-sync             |netbox_unifi_sync        |[Unifi Sync](https://github.com/itsjustbrianyo/netbox-unifi-sync)|
 |Data Flows               |1.5.2  |1.5.2 |1.5.4 |Active       |netbox-data-flows             |netbox_data_flows        |[Data Flows](https://github.com/Alef-Burzmali/netbox-data-flows)|
 |LibreNMS Plugin          |0.4.3  |0.4.7 |0.4.7 |Active       |netbox-librenms-plugin        |netbox_librenms_plugin   |[LibreNMS Plugin](https://github.com/bonzo81/netbox-librenms-plugin)|
 |OpenNMS Plugin           |-----  |0.0.12|0.0.14|Active       |netbox-opennms-plugin         |netbox_opennms           |[OpenNMS Plugin](https://github.com/no42-org/netbox-opennms-plugin)|
+|Docker Plugin            |5.3.0  |5.3.0 | ???  |Active       |netbox-docker-plugin          |netbox_docker_plugin     |[Docker Pluping](https://github.com/SaaShup/netbox-docker-plugin)|
+|Docker agent             |1.25.1 |1.25.1| ???  |Active       |--------------------          |--------------------     |[Docker Agent](https://github.com/SaaShup/netbox-docker-agent)|
 |Circuit Mainten.         |0.8.0  |----- |----- |Active       |netbox-circuitmaintenance     |netbox_circuitmaintenance|[Circuit Maintenance](https://github.com/jasonyates/netbox-circuitmaintenance)|
+|IPAM treeview            |-----  |----- |0.1.1 |Active       |netbox-ipam-treeview-plugin   |netbox_ipam_treeview     |[IPAM Treeview](https://github.com/thomaschristory/netbox-ipam-treeview-plugin)|
 |IP calculator            |1.4.11 |----- |----- |Active       |netbox-ipcalculator           |netbox_ipcalculator      |[IP calculator](https://github.com/PieterL75/netbox_ipcalculator)|
+|Roadtrip/Prefix Planner  |-----  |----- |----  |Active       |-------------------           |--------------------     |[Road Trip/Prefix Planner](https://github.com/vinceneil666/netbox-plugins)|
 |Netbox RIR Manager       |1.4.11 |----- |----- |Active       |netbox-rir-manager            |netbox_rir_manager       |[RIR Manager](https://github.com/jsenecal/netbox-rir-manager)|
+|Netbox SNMP Sync         |----   |0.3.14| ???  |Active       |netbox-snmp-sync              |netbox_snmp_sync         |[SNMP Sync](https://github.com/Kinet-s-r-o/netbox-snmp-sync)|
 |Interface Name Rules     |1.9.0  | ???  |1.9.0 |Active       |netbox-interface-name-rules   |netbox_interface_name_rules|[Interface name Rules](https://github.com/marcinpsk/netbox-InterfaceNameRules-plugin)|
 |MetaType Importer        |0.9.0  |0.10.0|----- |Active       |netbox-metatype-importer      |netbox_metatype_importer |[Metatype Importer](https://github.com/Onemind-Services-LLC/netbox-metatype-importer)|
+|Plugin Device Library    | ???   |0.1.2 | ???  | ???         |-----------------             |---------------          |[Plugin Device Library](https://github.com/DannyZolp/netbox-plugin-device-library)|
 |Netbox Plugin Reloader   |4.5.4.1|4.6.0.2|4.7.0.1|Active     |netbox-plugin-reloader        |netbox_plugin_reloader   |[Plugin Reloader](https://github.com/CESNET/netbox-plugin-reloader)|
-|Software Manager(Cisco)  |-----  |----- |----- |---          |netbox-plugin-software-manager|software_manager         |[Software manager](https://github.com/alsigna/netbox-software-manager)|
-|OS Manager(Cisco)        |-----  |----- |----- |---          |netbox-os-manager             |???                      |[OS manager](https://github.com/jonasnieberle/netbox-os-manager)|
-|NetBox Geo               |-----  |----- |----- |---          |---                           |geo                      |[NetBox Geo](https://github.com/wholesailnetworks/netbox-geo)|
+|Custom Field BackRefs    |----   |----  |0.2.0 |Active       |netbox-cf-backrefs            |netbox_cf_backrefs       |[CF BackRefs](https://github.com/CESNET/netbox-cf-backrefs)|
+|Netbox Wizards           |1.0.4  | ???  | ???  |Active       |netbox-wizards                |netbox_wizards           |[Netbox Wizards](https://github.com/nrkno/netbox-wizards-plugin)|
+|NetBox Data Import Plugin|----   |2.14.0| ???  |Active       |netbox-data-import            |netbox_data_import       |[Netbox Data Import](https://github.com/marcinpsk/netbox-data-import-plugin)|
+|NetBox Discovery Plugin  |----   |----  | ---- |Active       |------------------            |------------------       |[Discovery Plugin](https://github.com/TheCrazyLounge/netbox-discovery-plugin)|
+|NetBox GeoView           |0.8.2  |0.8.2 |0.8.2 |Active       |netbox-geoview                |netbox_geoview           |[NetBox GeoView](https://github.com/phlpr/netbox_geoview)|
+|NetBox Geo               |-----  |----- |----- |Unknown      |---                           |geo                      |[NetBox Geo](https://github.com/wholesailnetworks/netbox-geo)|
 |Device Map               |-----  |----- |----- |Unknown      |netbox-plugin-device-map      |netbox_device_map        |[Device Map](https://github.com/drygdryg/netbox-plugin-device-map)|
 |Circuit Map              |-----  |----- |----- |Unknown      |netbox-plugin-circuit-map     |netbox_circuit_map       |[Circuit Map](https://github.com/pv2b/netbox-plugin-circuit-map)|
+|Software Manager(Cisco)  |-----  |----- |----- |---          |netbox-plugin-software-manager|software_manager         |[Software manager](https://github.com/alsigna/netbox-software-manager)|
+|OS Manager(Cisco)        |-----  |----- |----- |---          |netbox-os-manager             |???                      |[OS manager](https://github.com/jonasnieberle/netbox-os-manager)|
 |NeXtbox UI Plugin        |-----  |----- |----- |Unknown      |nextbox-ui-plugin             |nextbox_ui_plugin        |[NeXtbox UI](https://github.com/iDebugAll/nextbox-ui-plugin)|
 |Phonebox Plugin          |-----  |----- |----- |---          |phonebox-plugin               |phonebox_plugin          |[Phonebox](https://github.com/iDebugAll/phonebox_plugin)|
 |voipbox Plugin           |0.0.9  |0.0.10|----- |Active       |voipbox-plugin                |voipbox_plugin           |[Voipbox Plugin](https://github.com/panaceya/voipbox_plugin)|
+|Netbox Phonenum Plugin   |-----  |----- |0.0.10| ???         |netbox-phonenum               |netbox_phonenum          |[Phonenum](https://github.com/jeremythorson/netbox_phonenum)|
+|Netbox Unified Comm.     | ???   | ???  | ???  | ???         |netbox-uc                     |netbox_uc                |[Netbix UC](https://github.com/matthewmgamble/netbox-uc)|
 |Netbox-Zabbix-Sync       |-----  |----- |----- |---          |---                           |---                      |[Script NetBox Zabbix Sync](https://github.com/TheNetworkGuy/netbox-zabbix-sync)|
 |Netbox-zabbix            |-----  |----- |----- |---          |netbox-zabbix                 |                         |[Plugin NetBox Zabbix](https://github.com/DanSheps/netbox-zabbix)|
 |nmap Scan                |-----  |----- |----- |Unknown      |---                           |---                      |[NetBox nmap Scan](https://github.com/LoH-lu/netbox-nmap-scan)|
